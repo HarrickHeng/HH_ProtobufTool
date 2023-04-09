@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+import "Proto_Common.proto";
+import "Proto_C2WS.proto";
+package HHFramework.Proto;
+
+//服务器返回创建角色消息[c#]
+message WS2C_ReturnCreateRole
+{
+    bool Result = 1;//结果
+    int64 RoleId = 2;//角色编号
+}
+
+//服务器返回已有角色消息[lua]
+message WS2C_ReturnRoleList
+{
+	message WS2C_ReturnRoleList_Item
+	{
+		int64 RoleId = 1;//角色编号
+		int32 JobId = 2;//职业编号
+		int32 Sex = 3;//性别
+		string NickName = 4;//昵称
+		int32 Level = 5;//等级
+	}
+	repeated WS2C_ReturnRoleList_Item RoleList = 1;//角色列表
+}
+
+//服务器返回角色信息[c#]
+message WS2C_ReturnRoleInfo
+{
+	int64 RoleId = 1;//角色编号
+	int32 JobId = 2;//职业
+	int32 Sex = 3;//性别
+	string NickName = 4;//昵称
+	int32 Level = 5;//等级
+	int32 CurrSceneId = 6;//所在场景编号
+	Vector3 CurrPos = 7;//坐标
+	float RotationY = 8;//旋转
+	int32 CurrHP = 9;//当前HP
+	int32 MaxHP = 10;//最大HP
+	int32 CurrMP = 11;//当前MP
+	int32 MaxMP = 12;//最大MP
+	int32 CurrFury = 13;//当前怒气
+}
+
+//服务器返回进入游戏完毕消息[c#]
+message WS2C_ReturnEnterGameComplete
+{
+
+}
+
+//服务器返回聊天消息[c#]
+message WS2C_ReturnChatMsg
+{
+	repeated C2WS_Chat_Data ChatMsgList = 1;//聊天消息列表
+}
+
+//服务器推送聊天消息[c#]
+message WS2C_PushChatMsg
+{
+	C2WS_Chat_Data ChatMsg = 1;//聊天消息
+}

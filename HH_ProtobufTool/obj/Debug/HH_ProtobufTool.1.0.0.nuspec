@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HH_ProtobufTool</id>
+    <version>1.0.0</version>
+    <authors>HH_ProtobufTool</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Management" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\CodeProject\Unity_DEMO\HH_ProtobufTool\youyou_ProtobufTool\bin\Debug\netcoreapp3.1\HH_ProtobufTool.runtimeconfig.json" target="lib\netcoreapp3.1\HH_ProtobufTool.runtimeconfig.json" />
+    <file src="E:\CodeProject\Unity_DEMO\HH_ProtobufTool\youyou_ProtobufTool\bin\Debug\netcoreapp3.1\HH_ProtobufTool.dll" target="lib\netcoreapp3.1\HH_ProtobufTool.dll" />
+  </files>
+</package>

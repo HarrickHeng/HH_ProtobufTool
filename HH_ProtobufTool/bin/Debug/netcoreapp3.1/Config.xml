@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <ProtocPath>E:\CodeProject\Unity_DEMO\HH_ProtobufTool\ProtoTool</ProtocPath>
+
+  
+  <ClientOutProtoPath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\HHScripts\Data\ProtoData\Proto\</ClientOutProtoPath>
+  <ClientOutProtoHandlerPath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\HHScripts\Data\ProtoData\ProtoHandler\</ClientOutProtoHandlerPath>
+  <ClientOutProtoIdDefinePath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\HHScripts\Data\ProtoData\ProtoIdDefine.cs</ClientOutProtoIdDefinePath>
+  <ClientOutSocketProtoListenerPath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\HHScripts\Data\ProtoData\SocketProtoListener.cs</ClientOutSocketProtoListenerPath>
+
+  <ClientOutLuaPBPath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\Download\xLuaLogic\PB\</ClientOutLuaPBPath>
+  <ClientOutLuaProtoHandlerPath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\Download\xLuaLogic\DataNode\ProtoHandler\</ClientOutLuaProtoHandlerPath>
+  <ClientOutLuaProtoDefPath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\Download\xLuaLogic\DataNode\Proto\ProtoDef.bytes</ClientOutLuaProtoDefPath>
+  <ClientOutLuaProtoListenerPath>E:\CodeProject\Unity_DEMO\HH_Framework\Assets\Download\xLuaLogic\DataNode\Proto\SocketProtoListenerForLua.bytes</ClientOutLuaProtoListenerPath>
+
+  <ServerOutProtoPath>E:\CodeProject\Unity_DEMO\Server\HHServer\HHServer.Common\ProtoData\Proto\</ServerOutProtoPath>
+  <ServerOutProtoIdDefinePath>E:\CodeProject\Unity_DEMO\Server\HHServer\HHServer.Common\ProtoData\ProtoIdDefine.cs</ServerOutProtoIdDefinePath>
+</Root>

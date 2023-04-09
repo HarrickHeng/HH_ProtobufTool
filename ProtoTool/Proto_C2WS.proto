@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+import "Proto_Common.proto";
+package HHFramework.Proto;
+
+//玩家向服务器发送创建角色消息
+message C2WS_CreateRole
+{
+    int32 JobId = 1;//职业编号
+    int32 Sex = 2;//性别
+    string NickName = 3;//昵称
+}
+
+//玩家向服务器发送查询已有角色消息
+message C2WS_GetRoleList
+{
+
+}
+
+//玩家向服务器发送进入游戏消息
+message C2WS_EnterGame
+{
+	int64 RoleId = 1;//角色编号
+}
+
+//聊天消息体
+message C2WS_Chat_Data
+{
+    ChatChannel Channel = 1;//频道
+	int64 RoleId = 2;//角色编号
+    int32 Level = 3;//等级
+    string NickName = 4;//昵称
+    int32 JobId = 5;//职业编号
+    string Head = 6;//头像
+    string Content = 7;//聊天内容
+}
+
+//玩家向服务器发送聊天游戏消息
+message C2WS_SendChatMsg
+{
+	C2WS_Chat_Data ChatMsg = 1;//聊天内容
+}

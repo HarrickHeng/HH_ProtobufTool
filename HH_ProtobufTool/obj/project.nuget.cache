@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YUPknyM4dhfAQ+LtSlYcvx2lY8rOhDfnZVdP2CMaN8vSSGNuR5c03rtvuA9zrphBdzg+9hk4oBg8RX2DvbNn8w==",
+  "success": true,
+  "projectFilePath": "E:\\CodeProject\\Unity_DEMO\\HH_ProtobufTool\\HH_ProtobufTool\\HH_ProtobufTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Harrick\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Harrick\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512",
+    "C:\\Users\\Harrick\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}
