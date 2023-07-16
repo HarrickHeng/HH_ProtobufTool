@@ -30,9 +30,9 @@ namespace HH_ProtobufTool
         /// </summary>
         public static void Init()
         {
-            string path = AppDomain.CurrentDomain.BaseDirectory + "\\Config.xml";
+            var path = AppDomain.CurrentDomain.BaseDirectory + "\\Config.xml";
 
-            XDocument doc = XDocument.Load(path);
+            var doc = XDocument.Load(path);
             ProtocPath = doc.Root.Element("ProtocPath").Value;
 
             ClientOutProtoPath = doc.Root.Element("ClientOutProtoPath").Value;

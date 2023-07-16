@@ -31,26 +31,51 @@ namespace HHFramework.Proto {
             "cmFtZXdvcmsuUHJvdG8uV1MyQ19SZXR1cm5Sb2xlTGlzdC5XUzJDX1JldHVy",
             "blJvbGVMaXN0X0l0ZW0aZwoYV1MyQ19SZXR1cm5Sb2xlTGlzdF9JdGVtEg4K",
             "BlJvbGVJZBgBIAEoAxINCgVKb2JJZBgCIAEoBRILCgNTZXgYAyABKAUSEAoI",
-            "Tmlja05hbWUYBCABKAkSDQoFTGV2ZWwYBSABKAUihwIKE1dTMkNfUmV0dXJu",
+            "Tmlja05hbWUYBCABKAkSDQoFTGV2ZWwYBSABKAUirAIKE1dTMkNfUmV0dXJu",
             "Um9sZUluZm8SDgoGUm9sZUlkGAEgASgDEg0KBUpvYklkGAIgASgFEgsKA1Nl",
             "eBgDIAEoBRIQCghOaWNrTmFtZRgEIAEoCRINCgVMZXZlbBgFIAEoBRITCgtD",
             "dXJyU2NlbmVJZBgGIAEoBRIrCgdDdXJyUG9zGAcgASgLMhouSEhGcmFtZXdv",
             "cmsuUHJvdG8uVmVjdG9yMxIRCglSb3RhdGlvblkYCCABKAISDgoGQ3VyckhQ",
             "GAkgASgFEg0KBU1heEhQGAogASgFEg4KBkN1cnJNUBgLIAEoBRINCgVNYXhN",
-            "UBgMIAEoBRIQCghDdXJyRnVyeRgNIAEoBSIeChxXUzJDX1JldHVybkVudGVy",
-            "R2FtZUNvbXBsZXRlIkwKEldTMkNfUmV0dXJuQ2hhdE1zZxI2CgtDaGF0TXNn",
-            "TGlzdBgBIAMoCzIhLkhIRnJhbWV3b3JrLlByb3RvLkMyV1NfQ2hhdF9EYXRh",
-            "IkYKEFdTMkNfUHVzaENoYXRNc2cSMgoHQ2hhdE1zZxgBIAEoCzIhLkhIRnJh",
-            "bWV3b3JrLlByb3RvLkMyV1NfQ2hhdF9EYXRhYgZwcm90bzM="));
+            "UBgMIAEoBRIQCghDdXJyRnVyeRgNIAEoBRIRCglDdXJyTW9uZXkYDiABKAMS",
+            "EAoIQ3VyckdvbGQYDyABKAMimQIKFVdTMkNfR29sZENoYW5nZVJldHVybhIP",
+            "CgdPbGRHb2xkGAEgASgDEhAKCEN1cnJHb2xkGAIgASgDEjEKCkNoYW5nZVR5",
+            "cGUYAyABKA4yHS5ISEZyYW1ld29yay5Qcm90by5DaGFuZ2VUeXBlEjAKB0Fk",
+            "ZFR5cGUYBCABKA4yHy5ISEZyYW1ld29yay5Qcm90by5Nb25leUFkZFR5cGUS",
+            "NgoKUmVkdWNlVHlwZRgFIAEoDjIiLkhIRnJhbWV3b3JrLlByb3RvLk1vbmV5",
+            "UmVkdWNlVHlwZRIvCglHb29kc1R5cGUYBiABKA4yHC5ISEZyYW1ld29yay5Q",
+            "cm90by5Hb29kc1R5cGUSDwoHR29vZHNJZBgHIAEoAyKcAgoWV1MyQ19Nb25l",
+            "eUNoYW5nZVJldHVybhIQCghPbGRNb25leRgBIAEoAxIRCglDdXJyTW9uZXkY",
+            "AiABKAMSMQoKQ2hhbmdlVHlwZRgDIAEoDjIdLkhIRnJhbWV3b3JrLlByb3Rv",
+            "LkNoYW5nZVR5cGUSMAoHQWRkVHlwZRgEIAEoDjIfLkhIRnJhbWV3b3JrLlBy",
+            "b3RvLk1vbmV5QWRkVHlwZRI2CgpSZWR1Y2VUeXBlGAUgASgOMiIuSEhGcmFt",
+            "ZXdvcmsuUHJvdG8uTW9uZXlSZWR1Y2VUeXBlEi8KCUdvb2RzVHlwZRgGIAEo",
+            "DjIcLkhIRnJhbWV3b3JrLlByb3RvLkdvb2RzVHlwZRIPCgdHb29kc0lkGAcg",
+            "ASgDIh4KHFdTMkNfUmV0dXJuRW50ZXJHYW1lQ29tcGxldGUiTAoSV1MyQ19S",
+            "ZXR1cm5DaGF0TXNnEjYKC0NoYXRNc2dMaXN0GAEgAygLMiEuSEhGcmFtZXdv",
+            "cmsuUHJvdG8uQzJXU19DaGF0X0RhdGEiRgoQV1MyQ19QdXNoQ2hhdE1zZxIy",
+            "CgdDaGF0TXNnGAEgASgLMiEuSEhGcmFtZXdvcmsuUHJvdG8uQzJXU19DaGF0",
+            "X0RhdGEiPAoZV1MyQ19SZXR1cm5TaG9wQnV5UHJvZHVjdBIOCgZSZXN1bHQY",
+            "ASABKAgSDwoHTXNnQ29kZRgCIAEoBSKOAgoeV1MyQ19SZXR1cm5CYWNrcGFj",
+            "a0dvb2RzQ2hhbmdlEm4KD0dvb2RzQ2hhbmdlTGlzdBgBIAMoCzJVLkhIRnJh",
+            "bWV3b3JrLlByb3RvLldTMkNfUmV0dXJuQmFja3BhY2tHb29kc0NoYW5nZS5X",
+            "UzJDX1JldHVybkJhY2twYWNrR29vZHNDaGFuZ2VfSXRlbRp8CiNXUzJDX1Jl",
+            "dHVybkJhY2twYWNrR29vZHNDaGFuZ2VfSXRlbRIvCglHb29kc1R5cGUYASAB",
+            "KA4yHC5ISEZyYW1ld29yay5Qcm90by5Hb29kc1R5cGUSDwoHR29vZHNJZBgC",
+            "IAEoAxITCgtDaGFuZ2VDb3VudBgDIAEoBWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HHFramework.Proto.ProtoCommonReflection.Descriptor, global::HHFramework.Proto.ProtoC2WSReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnCreateRole), global::HHFramework.Proto.WS2C_ReturnCreateRole.Parser, new[]{ "Result", "RoleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleList), global::HHFramework.Proto.WS2C_ReturnRoleList.Parser, new[]{ "RoleList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleList.Types.WS2C_ReturnRoleList_Item), global::HHFramework.Proto.WS2C_ReturnRoleList.Types.WS2C_ReturnRoleList_Item.Parser, new[]{ "RoleId", "JobId", "Sex", "NickName", "Level" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleInfo), global::HHFramework.Proto.WS2C_ReturnRoleInfo.Parser, new[]{ "RoleId", "JobId", "Sex", "NickName", "Level", "CurrSceneId", "CurrPos", "RotationY", "CurrHP", "MaxHP", "CurrMP", "MaxMP", "CurrFury" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleInfo), global::HHFramework.Proto.WS2C_ReturnRoleInfo.Parser, new[]{ "RoleId", "JobId", "Sex", "NickName", "Level", "CurrSceneId", "CurrPos", "RotationY", "CurrHP", "MaxHP", "CurrMP", "MaxMP", "CurrFury", "CurrMoney", "CurrGold" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_GoldChangeReturn), global::HHFramework.Proto.WS2C_GoldChangeReturn.Parser, new[]{ "OldGold", "CurrGold", "ChangeType", "AddType", "ReduceType", "GoodsType", "GoodsId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_MoneyChangeReturn), global::HHFramework.Proto.WS2C_MoneyChangeReturn.Parser, new[]{ "OldMoney", "CurrMoney", "ChangeType", "AddType", "ReduceType", "GoodsType", "GoodsId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnEnterGameComplete), global::HHFramework.Proto.WS2C_ReturnEnterGameComplete.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnChatMsg), global::HHFramework.Proto.WS2C_ReturnChatMsg.Parser, new[]{ "ChatMsgList" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_PushChatMsg), global::HHFramework.Proto.WS2C_PushChatMsg.Parser, new[]{ "ChatMsg" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_PushChatMsg), global::HHFramework.Proto.WS2C_PushChatMsg.Parser, new[]{ "ChatMsg" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnShopBuyProduct), global::HHFramework.Proto.WS2C_ReturnShopBuyProduct.Parser, new[]{ "Result", "MsgCode" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange), global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Parser, new[]{ "GoodsChangeList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item), global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item.Parser, new[]{ "GoodsType", "GoodsId", "ChangeCount" }, null, null, null)})
           }));
     }
     #endregion
@@ -641,6 +666,8 @@ namespace HHFramework.Proto {
       currMP_ = other.currMP_;
       maxMP_ = other.maxMP_;
       currFury_ = other.currFury_;
+      currMoney_ = other.currMoney_;
+      currGold_ = other.currGold_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -831,6 +858,34 @@ namespace HHFramework.Proto {
       }
     }
 
+    /// <summary>Field number for the "CurrMoney" field.</summary>
+    public const int CurrMoneyFieldNumber = 14;
+    private long currMoney_;
+    /// <summary>
+    ///当前元宝
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long CurrMoney {
+      get { return currMoney_; }
+      set {
+        currMoney_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CurrGold" field.</summary>
+    public const int CurrGoldFieldNumber = 15;
+    private long currGold_;
+    /// <summary>
+    ///当前金币
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long CurrGold {
+      get { return currGold_; }
+      set {
+        currGold_ = value;
+      }
+    }
+
     public override bool Equals(object other) {
       return Equals(other as WS2C_ReturnRoleInfo);
     }
@@ -855,6 +910,8 @@ namespace HHFramework.Proto {
       if (CurrMP != other.CurrMP) return false;
       if (MaxMP != other.MaxMP) return false;
       if (CurrFury != other.CurrFury) return false;
+      if (CurrMoney != other.CurrMoney) return false;
+      if (CurrGold != other.CurrGold) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -873,6 +930,8 @@ namespace HHFramework.Proto {
       if (CurrMP != 0) hash ^= CurrMP.GetHashCode();
       if (MaxMP != 0) hash ^= MaxMP.GetHashCode();
       if (CurrFury != 0) hash ^= CurrFury.GetHashCode();
+      if (CurrMoney != 0L) hash ^= CurrMoney.GetHashCode();
+      if (CurrGold != 0L) hash ^= CurrGold.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -936,6 +995,14 @@ namespace HHFramework.Proto {
         output.WriteRawTag(104);
         output.WriteInt32(CurrFury);
       }
+      if (CurrMoney != 0L) {
+        output.WriteRawTag(112);
+        output.WriteInt64(CurrMoney);
+      }
+      if (CurrGold != 0L) {
+        output.WriteRawTag(120);
+        output.WriteInt64(CurrGold);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -981,6 +1048,12 @@ namespace HHFramework.Proto {
       }
       if (CurrFury != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(CurrFury);
+      }
+      if (CurrMoney != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CurrMoney);
+      }
+      if (CurrGold != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CurrGold);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1033,6 +1106,12 @@ namespace HHFramework.Proto {
       }
       if (other.CurrFury != 0) {
         CurrFury = other.CurrFury;
+      }
+      if (other.CurrMoney != 0L) {
+        CurrMoney = other.CurrMoney;
+      }
+      if (other.CurrGold != 0L) {
+        CurrGold = other.CurrGold;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1099,6 +1178,646 @@ namespace HHFramework.Proto {
             CurrFury = input.ReadInt32();
             break;
           }
+          case 112: {
+            CurrMoney = input.ReadInt64();
+            break;
+          }
+          case 120: {
+            CurrGold = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///服务器返回金币更新消息[lua]
+  /// </summary>
+  public sealed partial class WS2C_GoldChangeReturn : HHFramework.IProto, pb::IMessage<WS2C_GoldChangeReturn> {
+    private static readonly pb::MessageParser<WS2C_GoldChangeReturn> _parser = new pb::MessageParser<WS2C_GoldChangeReturn>(() => new WS2C_GoldChangeReturn());
+    public ushort ProtoId => ProtoIdDefine.Proto_WS2C_GoldChangeReturn;
+    public string ProtoEnName => "WS2C_GoldChangeReturn";
+    public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WS2C_GoldChangeReturn> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_GoldChangeReturn() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_GoldChangeReturn(WS2C_GoldChangeReturn other) : this() {
+      oldGold_ = other.oldGold_;
+      currGold_ = other.currGold_;
+      changeType_ = other.changeType_;
+      addType_ = other.addType_;
+      reduceType_ = other.reduceType_;
+      goodsType_ = other.goodsType_;
+      goodsId_ = other.goodsId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_GoldChangeReturn Clone() {
+      return new WS2C_GoldChangeReturn(this);
+    }
+
+    /// <summary>Field number for the "OldGold" field.</summary>
+    public const int OldGoldFieldNumber = 1;
+    private long oldGold_;
+    /// <summary>
+    ///更新前金币
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long OldGold {
+      get { return oldGold_; }
+      set {
+        oldGold_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CurrGold" field.</summary>
+    public const int CurrGoldFieldNumber = 2;
+    private long currGold_;
+    /// <summary>
+    ///更新后当前金币
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long CurrGold {
+      get { return currGold_; }
+      set {
+        currGold_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ChangeType" field.</summary>
+    public const int ChangeTypeFieldNumber = 3;
+    private global::HHFramework.Proto.ChangeType changeType_ = global::HHFramework.Proto.ChangeType.Add;
+    /// <summary>
+    ///更新方式
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.ChangeType ChangeType {
+      get { return changeType_; }
+      set {
+        changeType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "AddType" field.</summary>
+    public const int AddTypeFieldNumber = 4;
+    private global::HHFramework.Proto.MoneyAddType addType_ = global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType;
+    /// <summary>
+    ///增加的方式
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.MoneyAddType AddType {
+      get { return addType_; }
+      set {
+        addType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ReduceType" field.</summary>
+    public const int ReduceTypeFieldNumber = 5;
+    private global::HHFramework.Proto.MoneyReduceType reduceType_ = global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType;
+    /// <summary>
+    ///减少的方式
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.MoneyReduceType ReduceType {
+      get { return reduceType_; }
+      set {
+        reduceType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "GoodsType" field.</summary>
+    public const int GoodsTypeFieldNumber = 6;
+    private global::HHFramework.Proto.GoodsType goodsType_ = global::HHFramework.Proto.GoodsType.Equip;
+    /// <summary>
+    ///物品类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.GoodsType GoodsType {
+      get { return goodsType_; }
+      set {
+        goodsType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "GoodsId" field.</summary>
+    public const int GoodsIdFieldNumber = 7;
+    private long goodsId_;
+    /// <summary>
+    ///物品编号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long GoodsId {
+      get { return goodsId_; }
+      set {
+        goodsId_ = value;
+      }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as WS2C_GoldChangeReturn);
+    }
+
+    public bool Equals(WS2C_GoldChangeReturn other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OldGold != other.OldGold) return false;
+      if (CurrGold != other.CurrGold) return false;
+      if (ChangeType != other.ChangeType) return false;
+      if (AddType != other.AddType) return false;
+      if (ReduceType != other.ReduceType) return false;
+      if (GoodsType != other.GoodsType) return false;
+      if (GoodsId != other.GoodsId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OldGold != 0L) hash ^= OldGold.GetHashCode();
+      if (CurrGold != 0L) hash ^= CurrGold.GetHashCode();
+      if (ChangeType != global::HHFramework.Proto.ChangeType.Add) hash ^= ChangeType.GetHashCode();
+      if (AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) hash ^= AddType.GetHashCode();
+      if (ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) hash ^= ReduceType.GetHashCode();
+      if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) hash ^= GoodsType.GetHashCode();
+      if (GoodsId != 0L) hash ^= GoodsId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (OldGold != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(OldGold);
+      }
+      if (CurrGold != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(CurrGold);
+      }
+      if (ChangeType != global::HHFramework.Proto.ChangeType.Add) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) ChangeType);
+      }
+      if (AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) AddType);
+      }
+      if (ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) ReduceType);
+      }
+      if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) GoodsType);
+      }
+      if (GoodsId != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(GoodsId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (OldGold != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(OldGold);
+      }
+      if (CurrGold != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CurrGold);
+      }
+      if (ChangeType != global::HHFramework.Proto.ChangeType.Add) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ChangeType);
+      }
+      if (AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AddType);
+      }
+      if (ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReduceType);
+      }
+      if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) GoodsType);
+      }
+      if (GoodsId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(GoodsId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(WS2C_GoldChangeReturn other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OldGold != 0L) {
+        OldGold = other.OldGold;
+      }
+      if (other.CurrGold != 0L) {
+        CurrGold = other.CurrGold;
+      }
+      if (other.ChangeType != global::HHFramework.Proto.ChangeType.Add) {
+        ChangeType = other.ChangeType;
+      }
+      if (other.AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) {
+        AddType = other.AddType;
+      }
+      if (other.ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) {
+        ReduceType = other.ReduceType;
+      }
+      if (other.GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+        GoodsType = other.GoodsType;
+      }
+      if (other.GoodsId != 0L) {
+        GoodsId = other.GoodsId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            OldGold = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            CurrGold = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            ChangeType = (global::HHFramework.Proto.ChangeType) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            AddType = (global::HHFramework.Proto.MoneyAddType) input.ReadEnum();
+            break;
+          }
+          case 40: {
+            ReduceType = (global::HHFramework.Proto.MoneyReduceType) input.ReadEnum();
+            break;
+          }
+          case 48: {
+            GoodsType = (global::HHFramework.Proto.GoodsType) input.ReadEnum();
+            break;
+          }
+          case 56: {
+            GoodsId = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///服务器返回元宝更新消息[lua]
+  /// </summary>
+  public sealed partial class WS2C_MoneyChangeReturn : HHFramework.IProto, pb::IMessage<WS2C_MoneyChangeReturn> {
+    private static readonly pb::MessageParser<WS2C_MoneyChangeReturn> _parser = new pb::MessageParser<WS2C_MoneyChangeReturn>(() => new WS2C_MoneyChangeReturn());
+    public ushort ProtoId => ProtoIdDefine.Proto_WS2C_MoneyChangeReturn;
+    public string ProtoEnName => "WS2C_MoneyChangeReturn";
+    public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WS2C_MoneyChangeReturn> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_MoneyChangeReturn() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_MoneyChangeReturn(WS2C_MoneyChangeReturn other) : this() {
+      oldMoney_ = other.oldMoney_;
+      currMoney_ = other.currMoney_;
+      changeType_ = other.changeType_;
+      addType_ = other.addType_;
+      reduceType_ = other.reduceType_;
+      goodsType_ = other.goodsType_;
+      goodsId_ = other.goodsId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_MoneyChangeReturn Clone() {
+      return new WS2C_MoneyChangeReturn(this);
+    }
+
+    /// <summary>Field number for the "OldMoney" field.</summary>
+    public const int OldMoneyFieldNumber = 1;
+    private long oldMoney_;
+    /// <summary>
+    ///更新前元宝
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long OldMoney {
+      get { return oldMoney_; }
+      set {
+        oldMoney_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "CurrMoney" field.</summary>
+    public const int CurrMoneyFieldNumber = 2;
+    private long currMoney_;
+    /// <summary>
+    ///更新后当前元宝
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long CurrMoney {
+      get { return currMoney_; }
+      set {
+        currMoney_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ChangeType" field.</summary>
+    public const int ChangeTypeFieldNumber = 3;
+    private global::HHFramework.Proto.ChangeType changeType_ = global::HHFramework.Proto.ChangeType.Add;
+    /// <summary>
+    ///更新方式
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.ChangeType ChangeType {
+      get { return changeType_; }
+      set {
+        changeType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "AddType" field.</summary>
+    public const int AddTypeFieldNumber = 4;
+    private global::HHFramework.Proto.MoneyAddType addType_ = global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType;
+    /// <summary>
+    ///增加的方式
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.MoneyAddType AddType {
+      get { return addType_; }
+      set {
+        addType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ReduceType" field.</summary>
+    public const int ReduceTypeFieldNumber = 5;
+    private global::HHFramework.Proto.MoneyReduceType reduceType_ = global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType;
+    /// <summary>
+    ///减少的方式
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.MoneyReduceType ReduceType {
+      get { return reduceType_; }
+      set {
+        reduceType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "GoodsType" field.</summary>
+    public const int GoodsTypeFieldNumber = 6;
+    private global::HHFramework.Proto.GoodsType goodsType_ = global::HHFramework.Proto.GoodsType.Equip;
+    /// <summary>
+    ///物品类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::HHFramework.Proto.GoodsType GoodsType {
+      get { return goodsType_; }
+      set {
+        goodsType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "GoodsId" field.</summary>
+    public const int GoodsIdFieldNumber = 7;
+    private long goodsId_;
+    /// <summary>
+    ///物品编号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long GoodsId {
+      get { return goodsId_; }
+      set {
+        goodsId_ = value;
+      }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as WS2C_MoneyChangeReturn);
+    }
+
+    public bool Equals(WS2C_MoneyChangeReturn other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (OldMoney != other.OldMoney) return false;
+      if (CurrMoney != other.CurrMoney) return false;
+      if (ChangeType != other.ChangeType) return false;
+      if (AddType != other.AddType) return false;
+      if (ReduceType != other.ReduceType) return false;
+      if (GoodsType != other.GoodsType) return false;
+      if (GoodsId != other.GoodsId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      if (OldMoney != 0L) hash ^= OldMoney.GetHashCode();
+      if (CurrMoney != 0L) hash ^= CurrMoney.GetHashCode();
+      if (ChangeType != global::HHFramework.Proto.ChangeType.Add) hash ^= ChangeType.GetHashCode();
+      if (AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) hash ^= AddType.GetHashCode();
+      if (ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) hash ^= ReduceType.GetHashCode();
+      if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) hash ^= GoodsType.GetHashCode();
+      if (GoodsId != 0L) hash ^= GoodsId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (OldMoney != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(OldMoney);
+      }
+      if (CurrMoney != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(CurrMoney);
+      }
+      if (ChangeType != global::HHFramework.Proto.ChangeType.Add) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) ChangeType);
+      }
+      if (AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) AddType);
+      }
+      if (ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) ReduceType);
+      }
+      if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) GoodsType);
+      }
+      if (GoodsId != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(GoodsId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (OldMoney != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(OldMoney);
+      }
+      if (CurrMoney != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CurrMoney);
+      }
+      if (ChangeType != global::HHFramework.Proto.ChangeType.Add) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ChangeType);
+      }
+      if (AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) AddType);
+      }
+      if (ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ReduceType);
+      }
+      if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) GoodsType);
+      }
+      if (GoodsId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(GoodsId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(WS2C_MoneyChangeReturn other) {
+      if (other == null) {
+        return;
+      }
+      if (other.OldMoney != 0L) {
+        OldMoney = other.OldMoney;
+      }
+      if (other.CurrMoney != 0L) {
+        CurrMoney = other.CurrMoney;
+      }
+      if (other.ChangeType != global::HHFramework.Proto.ChangeType.Add) {
+        ChangeType = other.ChangeType;
+      }
+      if (other.AddType != global::HHFramework.Proto.MoneyAddType.NoneMoneyAddType) {
+        AddType = other.AddType;
+      }
+      if (other.ReduceType != global::HHFramework.Proto.MoneyReduceType.NoneMoneyReduceType) {
+        ReduceType = other.ReduceType;
+      }
+      if (other.GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+        GoodsType = other.GoodsType;
+      }
+      if (other.GoodsId != 0L) {
+        GoodsId = other.GoodsId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            OldMoney = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            CurrMoney = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            ChangeType = (global::HHFramework.Proto.ChangeType) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            AddType = (global::HHFramework.Proto.MoneyAddType) input.ReadEnum();
+            break;
+          }
+          case 40: {
+            ReduceType = (global::HHFramework.Proto.MoneyReduceType) input.ReadEnum();
+            break;
+          }
+          case 48: {
+            GoodsType = (global::HHFramework.Proto.GoodsType) input.ReadEnum();
+            break;
+          }
+          case 56: {
+            GoodsId = input.ReadInt64();
+            break;
+          }
         }
       }
     }
@@ -1119,7 +1838,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[3]; }
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1218,7 +1937,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[4]; }
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1340,7 +2059,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[5]; }
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1459,6 +2178,484 @@ namespace HHFramework.Proto {
         }
       }
     }
+
+  }
+
+  /// <summary>
+  ///服务器返回商城物品购买消息[lua]
+  /// </summary>
+  public sealed partial class WS2C_ReturnShopBuyProduct : HHFramework.IProto, pb::IMessage<WS2C_ReturnShopBuyProduct> {
+    private static readonly pb::MessageParser<WS2C_ReturnShopBuyProduct> _parser = new pb::MessageParser<WS2C_ReturnShopBuyProduct>(() => new WS2C_ReturnShopBuyProduct());
+    public ushort ProtoId => ProtoIdDefine.Proto_WS2C_ReturnShopBuyProduct;
+    public string ProtoEnName => "WS2C_ReturnShopBuyProduct";
+    public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WS2C_ReturnShopBuyProduct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[8]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnShopBuyProduct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnShopBuyProduct(WS2C_ReturnShopBuyProduct other) : this() {
+      result_ = other.result_;
+      msgCode_ = other.msgCode_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnShopBuyProduct Clone() {
+      return new WS2C_ReturnShopBuyProduct(this);
+    }
+
+    /// <summary>Field number for the "Result" field.</summary>
+    public const int ResultFieldNumber = 1;
+    private bool result_;
+    /// <summary>
+    ///结果
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Result {
+      get { return result_; }
+      set {
+        result_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MsgCode" field.</summary>
+    public const int MsgCodeFieldNumber = 2;
+    private int msgCode_;
+    /// <summary>
+    ///消息码
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int MsgCode {
+      get { return msgCode_; }
+      set {
+        msgCode_ = value;
+      }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as WS2C_ReturnShopBuyProduct);
+    }
+
+    public bool Equals(WS2C_ReturnShopBuyProduct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Result != other.Result) return false;
+      if (MsgCode != other.MsgCode) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Result != false) hash ^= Result.GetHashCode();
+      if (MsgCode != 0) hash ^= MsgCode.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Result != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (MsgCode != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(MsgCode);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (Result != false) {
+        size += 1 + 1;
+      }
+      if (MsgCode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MsgCode);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(WS2C_ReturnShopBuyProduct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Result != false) {
+        Result = other.Result;
+      }
+      if (other.MsgCode != 0) {
+        MsgCode = other.MsgCode;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 16: {
+            MsgCode = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///服务器返回背包物品更新消息[lua]
+  /// </summary>
+  public sealed partial class WS2C_ReturnBackpackGoodsChange : HHFramework.IProto, pb::IMessage<WS2C_ReturnBackpackGoodsChange> {
+    private static readonly pb::MessageParser<WS2C_ReturnBackpackGoodsChange> _parser = new pb::MessageParser<WS2C_ReturnBackpackGoodsChange>(() => new WS2C_ReturnBackpackGoodsChange());
+    public ushort ProtoId => ProtoIdDefine.Proto_WS2C_ReturnBackpackGoodsChange;
+    public string ProtoEnName => "WS2C_ReturnBackpackGoodsChange";
+    public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WS2C_ReturnBackpackGoodsChange> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnBackpackGoodsChange() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnBackpackGoodsChange(WS2C_ReturnBackpackGoodsChange other) : this() {
+      goodsChangeList_ = other.goodsChangeList_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnBackpackGoodsChange Clone() {
+      return new WS2C_ReturnBackpackGoodsChange(this);
+    }
+
+    /// <summary>Field number for the "GoodsChangeList" field.</summary>
+    public const int GoodsChangeListFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item> _repeated_goodsChangeList_codec
+        = pb::FieldCodec.ForMessage(10, global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item.Parser);
+    private readonly pbc::RepeatedField<global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item> goodsChangeList_ = new pbc::RepeatedField<global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item>();
+    /// <summary>
+    ///物品更新列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item> GoodsChangeList {
+      get { return goodsChangeList_; }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as WS2C_ReturnBackpackGoodsChange);
+    }
+
+    public bool Equals(WS2C_ReturnBackpackGoodsChange other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!goodsChangeList_.Equals(other.goodsChangeList_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= goodsChangeList_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      goodsChangeList_.WriteTo(output, _repeated_goodsChangeList_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      size += goodsChangeList_.CalculateSize(_repeated_goodsChangeList_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(WS2C_ReturnBackpackGoodsChange other) {
+      if (other == null) {
+        return;
+      }
+      goodsChangeList_.Add(other.goodsChangeList_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            goodsChangeList_.AddEntriesFrom(input, _repeated_goodsChangeList_codec);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the WS2C_ReturnBackpackGoodsChange message type.</summary>
+    public static partial class Types {
+      public sealed partial class WS2C_ReturnBackpackGoodsChange_Item : HHFramework.IProto, pb::IMessage<WS2C_ReturnBackpackGoodsChange_Item> {
+        private static readonly pb::MessageParser<WS2C_ReturnBackpackGoodsChange_Item> _parser = new pb::MessageParser<WS2C_ReturnBackpackGoodsChange_Item>(() => new WS2C_ReturnBackpackGoodsChange_Item());
+        public ushort ProtoId => ProtoIdDefine.Proto_WS2C_ReturnBackpackGoodsChange_Item;
+        public string ProtoEnName => "WS2C_ReturnBackpackGoodsChange_Item";
+        public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<WS2C_ReturnBackpackGoodsChange_Item> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public WS2C_ReturnBackpackGoodsChange_Item() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public WS2C_ReturnBackpackGoodsChange_Item(WS2C_ReturnBackpackGoodsChange_Item other) : this() {
+          goodsType_ = other.goodsType_;
+          goodsId_ = other.goodsId_;
+          changeCount_ = other.changeCount_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public WS2C_ReturnBackpackGoodsChange_Item Clone() {
+          return new WS2C_ReturnBackpackGoodsChange_Item(this);
+        }
+
+        /// <summary>Field number for the "GoodsType" field.</summary>
+        public const int GoodsTypeFieldNumber = 1;
+        private global::HHFramework.Proto.GoodsType goodsType_ = global::HHFramework.Proto.GoodsType.Equip;
+        /// <summary>
+        ///物品类型
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public global::HHFramework.Proto.GoodsType GoodsType {
+          get { return goodsType_; }
+          set {
+            goodsType_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "GoodsId" field.</summary>
+        public const int GoodsIdFieldNumber = 2;
+        private long goodsId_;
+        /// <summary>
+        ///物品编号
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public long GoodsId {
+          get { return goodsId_; }
+          set {
+            goodsId_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "ChangeCount" field.</summary>
+        public const int ChangeCountFieldNumber = 3;
+        private int changeCount_;
+        /// <summary>
+        ///更新的数量 如+1或者-1
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int ChangeCount {
+          get { return changeCount_; }
+          set {
+            changeCount_ = value;
+          }
+        }
+
+        public override bool Equals(object other) {
+          return Equals(other as WS2C_ReturnBackpackGoodsChange_Item);
+        }
+
+        public bool Equals(WS2C_ReturnBackpackGoodsChange_Item other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (GoodsType != other.GoodsType) return false;
+          if (GoodsId != other.GoodsId) return false;
+          if (ChangeCount != other.ChangeCount) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        public override int GetHashCode() {
+          int hash = 1;
+          if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) hash ^= GoodsType.GetHashCode();
+          if (GoodsId != 0L) hash ^= GoodsId.GetHashCode();
+          if (ChangeCount != 0) hash ^= ChangeCount.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+            output.WriteRawTag(8);
+            output.WriteEnum((int) GoodsType);
+          }
+          if (GoodsId != 0L) {
+            output.WriteRawTag(16);
+            output.WriteInt64(GoodsId);
+          }
+          if (ChangeCount != 0) {
+            output.WriteRawTag(24);
+            output.WriteInt32(ChangeCount);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        public int CalculateSize() {
+          int size = 0;
+          if (GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+            size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) GoodsType);
+          }
+          if (GoodsId != 0L) {
+            size += 1 + pb::CodedOutputStream.ComputeInt64Size(GoodsId);
+          }
+          if (ChangeCount != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeInt32Size(ChangeCount);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        public void MergeFrom(WS2C_ReturnBackpackGoodsChange_Item other) {
+          if (other == null) {
+            return;
+          }
+          if (other.GoodsType != global::HHFramework.Proto.GoodsType.Equip) {
+            GoodsType = other.GoodsType;
+          }
+          if (other.GoodsId != 0L) {
+            GoodsId = other.GoodsId;
+          }
+          if (other.ChangeCount != 0) {
+            ChangeCount = other.ChangeCount;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                GoodsType = (global::HHFramework.Proto.GoodsType) input.ReadEnum();
+                break;
+              }
+              case 16: {
+                GoodsId = input.ReadInt64();
+                break;
+              }
+              case 24: {
+                ChangeCount = input.ReadInt32();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 

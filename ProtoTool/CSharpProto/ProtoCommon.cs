@@ -33,10 +33,16 @@ namespace HHFramework.Proto {
             "dGlja01vdmUQAhIQCgxKb3lzdGlja1N0b3AQAyovChFSb2xlQmF0dGxlUmV0",
             "Q29kZRIICgROb25lEAASEAoMTXBEZWZpY2llbmN5EAEqTQoLQ2hhdENoYW5u",
             "ZWwSBwoDU3lzEAASCQoFV29ybGQQARIKCgZGcmllbmQQAhIICgRHYW5kEAMS",
-            "CgoGTGVhZ3VlEAQSCAoEVGVhbRAFYgZwcm90bzM="));
+            "CgoGTGVhZ3VlEAQSCAoEVGVhbRAFKiEKCkNoYW5nZVR5cGUSBwoDQWRkEAAS",
+            "CgoGUmVkdWNlEAEqXAoMTW9uZXlBZGRUeXBlEhQKEE5vbmVNb25leUFkZFR5",
+            "cGUQABIMCghSZWNoYXJnZRABEg0KCVVzZVRpY2tldBACEgwKCFN5c0F3YXJk",
+            "EAMSCwoHR01Bd2FyZBAEKlIKD01vbmV5UmVkdWNlVHlwZRIXChNOb25lTW9u",
+            "ZXlSZWR1Y2VUeXBlEAASCwoHQnV5U2hvcBABEg0KCUJ1eVRpY2tldBACEgoK",
+            "BlJlYm9ybhADKi8KCUdvb2RzVHlwZRIJCgVFcXVpcBAAEggKBEl0ZW0QARIN",
+            "CglNYXRlcmlhbHMQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::HHFramework.Proto.RoleType), typeof(global::HHFramework.Proto.OfflineType), typeof(global::HHFramework.Proto.LeaveSceneLineType), typeof(global::HHFramework.Proto.PlayerActionType), typeof(global::HHFramework.Proto.RoleBattleRetCode), typeof(global::HHFramework.Proto.ChatChannel), }, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::HHFramework.Proto.RoleType), typeof(global::HHFramework.Proto.OfflineType), typeof(global::HHFramework.Proto.LeaveSceneLineType), typeof(global::HHFramework.Proto.PlayerActionType), typeof(global::HHFramework.Proto.RoleBattleRetCode), typeof(global::HHFramework.Proto.ChatChannel), typeof(global::HHFramework.Proto.ChangeType), typeof(global::HHFramework.Proto.MoneyAddType), typeof(global::HHFramework.Proto.MoneyReduceType), typeof(global::HHFramework.Proto.GoodsType), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.Vector3), global::HHFramework.Proto.Vector3.Parser, new[]{ "X", "Y", "Z" }, null, null, null)
           }));
     }
@@ -144,6 +150,80 @@ namespace HHFramework.Proto {
     ///队伍
     /// </summary>
     [pbr::OriginalName("Team")] Team = 5,
+  }
+
+  /// <summary>
+  ///更新方式
+  /// </summary>
+  public enum ChangeType {
+    /// <summary>
+    ///增加
+    /// </summary>
+    [pbr::OriginalName("Add")] Add = 0,
+    /// <summary>
+    ///减少
+    /// </summary>
+    [pbr::OriginalName("Reduce")] Reduce = 1,
+  }
+
+  /// <summary>
+  ///元宝增加方式
+  /// </summary>
+  public enum MoneyAddType {
+    [pbr::OriginalName("NoneMoneyAddType")] NoneMoneyAddType = 0,
+    /// <summary>
+    ///充值
+    /// </summary>
+    [pbr::OriginalName("Recharge")] Recharge = 1,
+    /// <summary>
+    ///元宝票
+    /// </summary>
+    [pbr::OriginalName("UseTicket")] UseTicket = 2,
+    /// <summary>
+    ///系统奖励
+    /// </summary>
+    [pbr::OriginalName("SysAward")] SysAward = 3,
+    /// <summary>
+    ///GM奖励或补偿
+    /// </summary>
+    [pbr::OriginalName("GMAward")] Gmaward = 4,
+  }
+
+  /// <summary>
+  ///元宝减少方式
+  /// </summary>
+  public enum MoneyReduceType {
+    [pbr::OriginalName("NoneMoneyReduceType")] NoneMoneyReduceType = 0,
+    /// <summary>
+    ///购买商城物品
+    /// </summary>
+    [pbr::OriginalName("BuyShop")] BuyShop = 1,
+    /// <summary>
+    ///兑换成元宝票
+    /// </summary>
+    [pbr::OriginalName("BuyTicket")] BuyTicket = 2,
+    /// <summary>
+    ///原地复活
+    /// </summary>
+    [pbr::OriginalName("Reborn")] Reborn = 3,
+  }
+
+  /// <summary>
+  ///物品类型
+  /// </summary>
+  public enum GoodsType {
+    /// <summary>
+    ///装备
+    /// </summary>
+    [pbr::OriginalName("Equip")] Equip = 0,
+    /// <summary>
+    ///道具
+    /// </summary>
+    [pbr::OriginalName("Item")] Item = 1,
+    /// <summary>
+    ///材料
+    /// </summary>
+    [pbr::OriginalName("Materials")] Materials = 2,
   }
 
   #endregion

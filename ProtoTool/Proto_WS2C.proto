@@ -41,6 +41,32 @@ message WS2C_ReturnRoleInfo
 	int32 CurrMP = 11;//当前MP
 	int32 MaxMP = 12;//最大MP
 	int32 CurrFury = 13;//当前怒气
+	int64 CurrMoney = 14;//当前元宝
+	int64 CurrGold = 15;//当前金币
+}
+
+//服务器返回金币更新消息[lua]
+message WS2C_GoldChangeReturn
+{
+	int64 OldGold = 1;//更新前金币
+	int64 CurrGold = 2;//更新后当前金币
+	ChangeType ChangeType = 3;//更新方式
+	MoneyAddType AddType = 4;//增加的方式
+	MoneyReduceType ReduceType = 5;//减少的方式
+	GoodsType GoodsType = 6;//物品类型
+	int64 GoodsId = 7;//物品编号
+}
+
+//服务器返回元宝更新消息[lua]
+message WS2C_MoneyChangeReturn
+{
+	int64 OldMoney = 1;//更新前元宝
+	int64 CurrMoney = 2;//更新后当前元宝
+	ChangeType ChangeType = 3;//更新方式
+	MoneyAddType AddType = 4;//增加的方式
+	MoneyReduceType ReduceType = 5;//减少的方式
+	GoodsType GoodsType = 6;//物品类型
+	int64 GoodsId = 7;//物品编号
 }
 
 //服务器返回进入游戏完毕消息[c#]
@@ -59,4 +85,23 @@ message WS2C_ReturnChatMsg
 message WS2C_PushChatMsg
 {
 	C2WS_Chat_Data ChatMsg = 1;//聊天消息
+}
+
+//服务器返回商城物品购买消息[lua]
+message WS2C_ReturnShopBuyProduct
+{
+	bool Result = 1;//结果
+	int32 MsgCode = 2;//消息码
+}
+
+//服务器返回背包物品更新消息[lua]
+message WS2C_ReturnBackpackGoodsChange
+{
+	message WS2C_ReturnBackpackGoodsChange_Item
+	{
+		GoodsType GoodsType = 1;//物品类型
+		int64 GoodsId = 2;//物品编号
+		int32 ChangeCount = 3;//更新的数量 如+1或者-1
+	}
+	repeated WS2C_ReturnBackpackGoodsChange_Item GoodsChangeList = 1;//物品更新列表
 }

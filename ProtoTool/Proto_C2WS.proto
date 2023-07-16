@@ -40,3 +40,9 @@ message C2WS_SendChatMsg
 {
 	C2WS_Chat_Data ChatMsg = 1;//聊天内容
 }
+
+//客户端发送购买商城物品消息
+message C2WS_ShopBuyProduct
+{
+	int32 ProductId = 1;//商品编号
+}

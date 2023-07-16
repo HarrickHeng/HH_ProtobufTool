@@ -33,7 +33,8 @@ namespace HHFramework.Proto {
             "AyABKAUSEAoITmlja05hbWUYBCABKAkSDQoFSm9iSWQYBSABKAUSDAoESGVh",
             "ZBgGIAEoCRIPCgdDb250ZW50GAcgASgJIkYKEEMyV1NfU2VuZENoYXRNc2cS",
             "MgoHQ2hhdE1zZxgBIAEoCzIhLkhIRnJhbWV3b3JrLlByb3RvLkMyV1NfQ2hh",
-            "dF9EYXRhYgZwcm90bzM="));
+            "dF9EYXRhIigKE0MyV1NfU2hvcEJ1eVByb2R1Y3QSEQoJUHJvZHVjdElkGAEg",
+            "ASgFYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HHFramework.Proto.ProtoCommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -41,7 +42,8 @@ namespace HHFramework.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_GetRoleList), global::HHFramework.Proto.C2WS_GetRoleList.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_EnterGame), global::HHFramework.Proto.C2WS_EnterGame.Parser, new[]{ "RoleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_Chat_Data), global::HHFramework.Proto.C2WS_Chat_Data.Parser, new[]{ "Channel", "RoleId", "Level", "NickName", "JobId", "Head", "Content" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_SendChatMsg), global::HHFramework.Proto.C2WS_SendChatMsg.Parser, new[]{ "ChatMsg" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_SendChatMsg), global::HHFramework.Proto.C2WS_SendChatMsg.Parser, new[]{ "ChatMsg" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_ShopBuyProduct), global::HHFramework.Proto.C2WS_ShopBuyProduct.Parser, new[]{ "ProductId" }, null, null, null)
           }));
     }
     #endregion
@@ -913,6 +915,136 @@ namespace HHFramework.Proto {
               ChatMsg = new global::HHFramework.Proto.C2WS_Chat_Data();
             }
             input.ReadMessage(ChatMsg);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///客户端发送购买商城物品消息
+  /// </summary>
+  public sealed partial class C2WS_ShopBuyProduct : HHFramework.IProto, pb::IMessage<C2WS_ShopBuyProduct> {
+    private static readonly pb::MessageParser<C2WS_ShopBuyProduct> _parser = new pb::MessageParser<C2WS_ShopBuyProduct>(() => new C2WS_ShopBuyProduct());
+    public ushort ProtoId => ProtoIdDefine.Proto_C2WS_ShopBuyProduct;
+    public string ProtoEnName => "C2WS_ShopBuyProduct";
+    public ProtoCategory Category => ProtoCategory.Client2WorldServer;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<C2WS_ShopBuyProduct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[5]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public C2WS_ShopBuyProduct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public C2WS_ShopBuyProduct(C2WS_ShopBuyProduct other) : this() {
+      productId_ = other.productId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public C2WS_ShopBuyProduct Clone() {
+      return new C2WS_ShopBuyProduct(this);
+    }
+
+    /// <summary>Field number for the "ProductId" field.</summary>
+    public const int ProductIdFieldNumber = 1;
+    private int productId_;
+    /// <summary>
+    ///商品编号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ProductId {
+      get { return productId_; }
+      set {
+        productId_ = value;
+      }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as C2WS_ShopBuyProduct);
+    }
+
+    public bool Equals(C2WS_ShopBuyProduct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ProductId != other.ProductId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ProductId != 0) hash ^= ProductId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ProductId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ProductId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (ProductId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProductId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(C2WS_ShopBuyProduct other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ProductId != 0) {
+        ProductId = other.ProductId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ProductId = input.ReadInt32();
             break;
           }
         }

@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "YUPknyM4dhfAQ+LtSlYcvx2lY8rOhDfnZVdP2CMaN8vSSGNuR5c03rtvuA9zrphBdzg+9hk4oBg8RX2DvbNn8w==",
+  "dgSpecHash": "WspEk7dSrBorH4ACEkFUHjBMZ206n63SUjLE36avvh7NCT8Eu6PqPi7ECPimrnotLYsRjiOnzaiWSIELBK/6tA==",
   "success": true,
   "projectFilePath": "E:\\CodeProject\\Unity_DEMO\\HH_ProtobufTool\\HH_ProtobufTool\\HH_ProtobufTool.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Harrick\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Harrick\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.3\\microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg.sha512",
     "C:\\Users\\Harrick\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\Harrick\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512",
+    "C:\\Users\\Harrick\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Harrick\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Harrick\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\Harrick\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
   ],
   "logs": []

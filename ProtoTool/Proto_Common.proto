@@ -48,10 +48,44 @@ enum RoleBattleRetCode
 //聊天频道
 enum ChatChannel
 {
-	Sys = 0; //系统
+	Sys = 0;//系统
 	World = 1;//世界
 	Friend = 2;//好友
 	Gand = 3;//帮会
-	League =4;//同盟
+	League = 4;//同盟
 	Team = 5;//队伍
+}
+
+//更新方式
+enum ChangeType
+{
+	Add = 0;//增加
+	Reduce = 1;//减少
+}
+
+//元宝增加方式
+enum MoneyAddType
+{
+	NoneMoneyAddType = 0;
+	Recharge = 1;//充值
+	UseTicket = 2;//元宝票
+	SysAward = 3;//系统奖励
+	GMAward = 4;//GM奖励或补偿
+}
+
+//元宝减少方式
+enum MoneyReduceType
+{
+	NoneMoneyReduceType = 0;
+	BuyShop = 1;//购买商城物品
+	BuyTicket = 2;//兑换成元宝票
+	Reborn = 3;//原地复活
+}
+
+//物品类型
+enum GoodsType
+{
+	Equip = 0;//装备
+	Item = 1;//道具
+	Materials = 2;//材料
 }

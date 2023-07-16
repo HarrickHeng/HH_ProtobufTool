@@ -15,22 +15,24 @@ namespace HH_ProtobufTool
         {
             Config.Init();
 
-            mStartProtoId = new Dictionary<int, ushort>();
-            mStartProtoId[-1] = 0;
-            mStartProtoId[0] = 10000;
-            mStartProtoId[1] = 11000;
-            mStartProtoId[2] = 12000;
-            mStartProtoId[3] = 13000;
-            mStartProtoId[4] = 14000;
-            mStartProtoId[5] = 15000;
-            mStartProtoId[6] = 16000;
-            mStartProtoId[7] = 17000;
-            mStartProtoId[8] = 18000;
-            mStartProtoId[9] = 19000;
-            mStartProtoId[10] = 20000;
-            mStartProtoId[11] = 21000;
-            mStartProtoId[12] = 22000;
-            mStartProtoId[13] = 23000;
+            mStartProtoId = new Dictionary<int, ushort>
+            {
+                [-1] = 0,
+                [0] = 10000,
+                [1] = 11000,
+                [2] = 12000,
+                [3] = 13000,
+                [4] = 14000,
+                [5] = 15000,
+                [6] = 16000,
+                [7] = 17000,
+                [8] = 18000,
+                [9] = 19000,
+                [10] = 20000,
+                [11] = 21000,
+                [12] = 22000,
+                [13] = 23000
+            };
 
             CreateProtoFiles();
 
@@ -619,7 +621,7 @@ namespace HH_ProtobufTool
             {
                 if (mProtoId == null)
                 {
-                    mProtoId = ++HH_ProtobufTool.mStartProtoId[Category];
+                    mProtoId = ++Program.mStartProtoId[Category];
                 }
 
                 return mProtoId.Value;

@@ -1,5 +1,5 @@
 
-‚
+·
 Proto_C2WS.protoHHFramework.ProtoProto_Common.proto"U
 C2WS_CreateRole
 JobId (RJobId
@@ -17,4 +17,6 @@
 Head (	RHead
 Content (	RContent"O
 C2WS_SendChatMsg;
-ChatMsg (2!.HHFramework.Proto.C2WS_Chat_DataRChatMsgbproto3
+ChatMsg (2!.HHFramework.Proto.C2WS_Chat_DataRChatMsg"3
+C2WS_ShopBuyProduct
+	ProductId (R	ProductIdbproto3
