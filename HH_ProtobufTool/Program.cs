@@ -8,29 +8,29 @@ namespace HH_ProtobufTool
 {
     class Program
     {
-        public static Dictionary<int, ushort> m_StartProtoId;
+        public static Dictionary<int, ushort> mStartProtoId;
         private static string userInfo = string.Empty;
-        static void Main(string[] args)
-        {
 
+        static void Main()
+        {
             Config.Init();
 
-            m_StartProtoId = new Dictionary<int, ushort>();
-            m_StartProtoId[-1] = 0;
-            m_StartProtoId[0] = 10000;
-            m_StartProtoId[1] = 11000;
-            m_StartProtoId[2] = 12000;
-            m_StartProtoId[3] = 13000;
-            m_StartProtoId[4] = 14000;
-            m_StartProtoId[5] = 15000;
-            m_StartProtoId[6] = 16000;
-            m_StartProtoId[7] = 17000;
-            m_StartProtoId[8] = 18000;
-            m_StartProtoId[9] = 19000;
-            m_StartProtoId[10] = 20000;
-            m_StartProtoId[11] = 21000;
-            m_StartProtoId[12] = 22000;
-            m_StartProtoId[13] = 23000;
+            mStartProtoId = new Dictionary<int, ushort>();
+            mStartProtoId[-1] = 0;
+            mStartProtoId[0] = 10000;
+            mStartProtoId[1] = 11000;
+            mStartProtoId[2] = 12000;
+            mStartProtoId[3] = 13000;
+            mStartProtoId[4] = 14000;
+            mStartProtoId[5] = 15000;
+            mStartProtoId[6] = 16000;
+            mStartProtoId[7] = 17000;
+            mStartProtoId[8] = 18000;
+            mStartProtoId[9] = 19000;
+            mStartProtoId[10] = 20000;
+            mStartProtoId[11] = 21000;
+            mStartProtoId[12] = 22000;
+            mStartProtoId[13] = 23000;
 
             CreateProtoFiles();
 
@@ -66,14 +66,19 @@ namespace HH_ProtobufTool
                 FileInfo fileInfo = new FileInfo(file);
                 if (fileInfo.Extension == ".proto")
                 {
-                    Process.Start(Config.ProtocPath + "/protoc.exe", "--csharp_out=" + Config.ProtocPath + "/CSharpProto --proto_path=" + Config.ProtocPath + " " + fileInfo.Name);
+                    Process.Start(Config.ProtocPath + "/protoc.exe",
+                        "--csharp_out=" + Config.ProtocPath + "/CSharpProto --proto_path=" + Config.ProtocPath + " " +
+                        fileInfo.Name);
 
-                    Process.Start(Config.ProtocPath + "/protoc.exe", "--proto_path=" + Config.ProtocPath + " " + fileInfo.Name + " --descriptor_set_out=" + Config.ProtocPath + "/pb/" + fileInfo.Name.Replace(".proto", "") + ".pb");
+                    Process.Start(Config.ProtocPath + "/protoc.exe",
+                        "--proto_path=" + Config.ProtocPath + " " + fileInfo.Name + " --descriptor_set_out=" +
+                        Config.ProtocPath + "/pb/" + fileInfo.Name.Replace(".proto", "") + ".pb");
                 }
             }
         }
 
         #region 解析协议
+
         private static void ParseAll()
         {
             protoLst.Clear();
@@ -87,6 +92,7 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         private static void Parse(string file)
         {
             List<string> lineStrs = new List<string>();
@@ -98,6 +104,7 @@ namespace HH_ProtobufTool
                     string lineStr = sr.ReadLine();
                     lineStrs.Add(lineStr);
                 }
+
                 sr.Close();
                 fs.Close();
             }
@@ -137,9 +144,11 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
         #region 拷贝c#协议到客户端
+
         /// <summary>
         /// 拷贝c#协议到客户端
         /// </summary>
@@ -154,12 +163,15 @@ namespace HH_ProtobufTool
                 {
                     continue;
                 }
+
                 File.Copy(fileInfo.FullName, Config.ClientOutProtoPath + "/" + fileInfo.Name, true);
             }
         }
+
         #endregion
 
         #region 拷贝PB文件到客户端
+
         private static void CopyPBToClient()
         {
             //把这些文件复制到目标目录
@@ -171,12 +183,16 @@ namespace HH_ProtobufTool
                 {
                     continue;
                 }
-                File.Copy(fileInfo.FullName, Config.ClientOutLuaPBPath + "/" + fileInfo.Name.Replace(".pb", ".bytes"), true);
+
+                File.Copy(fileInfo.FullName, Config.ClientOutLuaPBPath + "/" + fileInfo.Name.Replace(".pb", ".bytes"),
+                    true);
             }
         }
+
         #endregion
 
         #region CreateCSharpProtoId 创建c#协议编号
+
         /// <summary>
         /// 创建c#协议编号
         /// </summary>
@@ -216,9 +232,11 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
         #region CreateCSharpListener 创建c#监听
+
         /// <summary>
         /// 创建c#监听
         /// </summary>
@@ -244,9 +262,12 @@ namespace HH_ProtobufTool
                 Proto proto = protoLst[i];
                 if (proto.IsCSharp && (proto.Category == 1 || proto.Category == 3 || proto.Category == 5))
                 {
-                    sbr.AppendFormat("        GameEntry.Event.SocketEvent.AddEventListener(ProtoIdDefine.Proto_{0}, {0}Handler.OnHandler);\r\n", proto.ProtoEnName);
+                    sbr.AppendFormat(
+                        "        GameEntry.Event.SocketEvent.AddEventListener(ProtoIdDefine.Proto_{0}, {0}Handler.OnHandler);\r\n",
+                        proto.ProtoEnName);
                 }
             }
+
             sbr.Append("    }\r\n");
             sbr.Append("\r\n");
             sbr.Append("    /// <summary>\r\n");
@@ -260,9 +281,12 @@ namespace HH_ProtobufTool
                 Proto proto = protoLst[i];
                 if (proto.IsCSharp && (proto.Category == 1 || proto.Category == 3 || proto.Category == 5))
                 {
-                    sbr.AppendFormat("        GameEntry.Event.SocketEvent.RemoveEventListener(ProtoIdDefine.Proto_{0}, {0}Handler.OnHandler);\r\n", proto.ProtoEnName);
+                    sbr.AppendFormat(
+                        "        GameEntry.Event.SocketEvent.RemoveEventListener(ProtoIdDefine.Proto_{0}, {0}Handler.OnHandler);\r\n",
+                        proto.ProtoEnName);
                 }
             }
+
             sbr.Append("    }\r\n");
             sbr.Append("}");
 
@@ -275,9 +299,11 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
         #region CreateCSharpHandler
+
         /// <summary>
         /// 创建CSharpHandler
         /// </summary>
@@ -304,8 +330,10 @@ namespace HH_ProtobufTool
                     sbr.AppendFormat("        {0} proto = {0}.Parser.ParseFrom(buffer);\r\n", proto.ProtoEnName);
                     sbr.Append("\r\n");
                     sbr.Append("#if DEBUG_LOG_PROTO && DEBUG_MODEL\r\n");
-                    sbr.Append("        GameEntry.Log(LogCategory.Proto, \"<color=#00eaff>接收消息:</color><color=#00ff9c>\" + proto.ProtoEnName + \" \" + proto.ProtoId + \"</color>\");\r\n");
-                    sbr.Append("        GameEntry.Log(LogCategory.Proto, \"<color=#c5e1dc>==>>\" + proto.ToString() + \"</color>\");\r\n");
+                    sbr.Append(
+                        "        GameEntry.Log(LogCategory.Proto, \"<color=#00eaff>接收消息:</color><color=#00ff9c>\" + proto.ProtoEnName + \" \" + proto.ProtoId + \"</color>\");\r\n");
+                    sbr.Append(
+                        "        GameEntry.Log(LogCategory.Proto, \"<color=#c5e1dc>==>>\" + proto.ToString() + \"</color>\");\r\n");
                     sbr.Append("#endif\r\n");
                     sbr.Append("    }\r\n");
                     sbr.Append("}");
@@ -327,9 +355,11 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
         #region CreateLuaProtoDef
+
         /// <summary>
         /// 创建Lua协议定义
         /// </summary>
@@ -361,6 +391,7 @@ namespace HH_ProtobufTool
                     sbr.AppendFormat("    [{0}] = \"HHFramework.Proto.{1}\",\r\n", proto.ProtoId, proto.ProtoEnName);
                 }
             }
+
             sbr.Append("}\r\n");
 
             sbr.Append("\r\n");
@@ -379,6 +410,7 @@ namespace HH_ProtobufTool
                     sbr.Append("\r\n\r\n");
                 }
             }
+
             //写入文件
             using (FileStream fs = new FileStream(Config.ClientOutLuaProtoDefPath, FileMode.Create))
             {
@@ -388,9 +420,11 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
         #region CreateLuaListener 创建Lua监听
+
         /// <summary>
         /// 创建Lua监听
         /// </summary>
@@ -408,6 +442,7 @@ namespace HH_ProtobufTool
                     sbr.AppendFormat("require(\"DataNode/ProtoHandler/{0}Handler\");\r\n", proto.ProtoEnName);
                 }
             }
+
             sbr.Append("\r\n");
             sbr.Append("SocketProtoListenerForLua = { };\r\n");
             sbr.Append("\r\n");
@@ -419,9 +454,11 @@ namespace HH_ProtobufTool
                 Proto proto = protoLst[i];
                 if (proto.IsLua && (proto.Category == 1 || proto.Category == 3 || proto.Category == 5))
                 {
-                    sbr.AppendFormat("    GameEntry.Event.SocketEvent:AddEventListener({0}, {1}Handler.OnHandle);\r\n", proto.ProtoId, proto.ProtoEnName);
+                    sbr.AppendFormat("    GameEntry.Event.SocketEvent:AddEventListener({0}, {1}Handler.OnHandle);\r\n",
+                        proto.ProtoId, proto.ProtoEnName);
                 }
             }
+
             sbr.Append("end\r\n");
             sbr.Append("\r\n");
             sbr.Append("function SocketProtoListenerForLua.RemoveProtoListener()\r\n");
@@ -430,9 +467,12 @@ namespace HH_ProtobufTool
                 Proto proto = protoLst[i];
                 if (proto.IsLua && (proto.Category == 1 || proto.Category == 3 || proto.Category == 5))
                 {
-                    sbr.AppendFormat("    GameEntry.Event.SocketEvent:RemoveEventListener({0}, {1}Handler.OnHandle);\r\n", proto.ProtoId, proto.ProtoEnName);
+                    sbr.AppendFormat(
+                        "    GameEntry.Event.SocketEvent:RemoveEventListener({0}, {1}Handler.OnHandle);\r\n",
+                        proto.ProtoId, proto.ProtoEnName);
                 }
             }
+
             sbr.Append("end");
             //写入文件
             using (FileStream fs = new FileStream(Config.ClientOutLuaProtoListenerPath, FileMode.Create))
@@ -443,9 +483,11 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
         #region CreateLuaHandler 创建LuaHandler
+
         /// <summary>
         /// 创建LuaHandler
         /// </summary>
@@ -466,15 +508,21 @@ namespace HH_ProtobufTool
                     sbr.AppendFormat("local this = {0}Handler\r\n", proto.ProtoEnName);
                     sbr.Append("\r\n");
                     sbr.AppendFormat("function {0}Handler.OnHandle(buffer)\r\n", proto.ProtoEnName);
-                    sbr.AppendFormat("    local proto = assert(GlobalPB.decode(\"HHFramework.Proto.{0}\", buffer));\r\n", proto.ProtoEnName);
+                    sbr.AppendFormat(
+                        "    local proto = assert(GlobalPB.decode(\"HHFramework.Proto.{0}\", buffer));\r\n",
+                        proto.ProtoEnName);
                     sbr.Append("\r\n");
                     sbr.Append("    if(GameInit.GetDebugLogProto()) then\r\n");
-                    sbr.AppendFormat("        print(string.format(\"<color=#00eaff>接收消息:</color><color=#00ff9c>%s %s</color>\", \"HHFramework.Proto.{0}\", {1}));\r\n", proto.ProtoEnName, proto.ProtoId);
-                    sbr.Append("        print(string.format(\"<color=#c5e1dc>==>>%s</color>\", json.encode(proto)));\r\n");
+                    sbr.AppendFormat(
+                        "        print(string.format(\"<color=#00eaff>接收消息:</color><color=#00ff9c>%s %s</color>\", \"HHFramework.Proto.{0}\", {1}));\r\n",
+                        proto.ProtoEnName, proto.ProtoId);
+                    sbr.Append(
+                        "        print(string.format(\"<color=#c5e1dc>==>>%s</color>\", json.encode(proto)));\r\n");
                     sbr.Append("    end\r\n");
                     sbr.Append("end\r\n");
 
-                    string path = Config.ClientOutLuaProtoHandlerPath + string.Format("/{0}Handler.bytes", proto.ProtoEnName);
+                    string path = Config.ClientOutLuaProtoHandlerPath +
+                                  string.Format("/{0}Handler.bytes", proto.ProtoEnName);
 
                     if (!File.Exists(path))
                     {
@@ -490,10 +538,12 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
 
         #region CreateServerProtoId 创建c#服务器协议编号
+
         /// <summary>
         /// 创建c#服务器协议编号
         /// </summary>
@@ -535,9 +585,11 @@ namespace HH_ProtobufTool
                 }
             }
         }
+
         #endregion
 
         #region 拷贝c#协议到服务器
+
         /// <summary>
         /// 拷贝c#协议到服务器
         /// </summary>
@@ -551,28 +603,34 @@ namespace HH_ProtobufTool
                 File.Copy(fileInfo.FullName, Config.ServerOutProtoPath + "/" + fileInfo.Name, true);
             }
         }
+
         #endregion
     }
 
     #region Proto
+
     public class Proto
     {
-        private ushort? m_ProtoId;
+        private ushort? mProtoId;
+
         public ushort ProtoId
         {
             get
             {
-                if (m_ProtoId == null)
+                if (mProtoId == null)
                 {
-                    m_ProtoId = ++Program.m_StartProtoId[Category];
+                    mProtoId = ++HH_ProtobufTool.mStartProtoId[Category];
                 }
-                return m_ProtoId.Value;
+
+                return mProtoId.Value;
             }
         }
+
         public string ProtoEnName;
         public string ProtoCnName;
         public bool IsCSharp;
         public bool IsLua;
+
         public int Category
         {
             get
@@ -633,6 +691,7 @@ namespace HH_ProtobufTool
                 {
                     return 11;
                 }
+
                 return -1;
             }
         }
@@ -668,9 +727,11 @@ namespace HH_ProtobufTool
                     case 11:
                         return "GameServer2GatewayServer";
                 }
+
                 return "None";
             }
         }
     }
+
     #endregion
 }
