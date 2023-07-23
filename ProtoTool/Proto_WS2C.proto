@@ -41,7 +41,6 @@ message WS2C_ReturnRoleInfo
 	int32 CurrMP = 11;//当前MP
 	int32 MaxMP = 12;//最大MP
 	int32 CurrFury = 13;//当前怒气
-	int64 CurrMoney = 14;//当前元宝
 	int64 CurrGold = 15;//当前金币
 }
 

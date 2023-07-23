@@ -31,44 +31,44 @@ namespace HHFramework.Proto {
             "cmFtZXdvcmsuUHJvdG8uV1MyQ19SZXR1cm5Sb2xlTGlzdC5XUzJDX1JldHVy",
             "blJvbGVMaXN0X0l0ZW0aZwoYV1MyQ19SZXR1cm5Sb2xlTGlzdF9JdGVtEg4K",
             "BlJvbGVJZBgBIAEoAxINCgVKb2JJZBgCIAEoBRILCgNTZXgYAyABKAUSEAoI",
-            "Tmlja05hbWUYBCABKAkSDQoFTGV2ZWwYBSABKAUirAIKE1dTMkNfUmV0dXJu",
+            "Tmlja05hbWUYBCABKAkSDQoFTGV2ZWwYBSABKAUimQIKE1dTMkNfUmV0dXJu",
             "Um9sZUluZm8SDgoGUm9sZUlkGAEgASgDEg0KBUpvYklkGAIgASgFEgsKA1Nl",
             "eBgDIAEoBRIQCghOaWNrTmFtZRgEIAEoCRINCgVMZXZlbBgFIAEoBRITCgtD",
             "dXJyU2NlbmVJZBgGIAEoBRIrCgdDdXJyUG9zGAcgASgLMhouSEhGcmFtZXdv",
             "cmsuUHJvdG8uVmVjdG9yMxIRCglSb3RhdGlvblkYCCABKAISDgoGQ3VyckhQ",
             "GAkgASgFEg0KBU1heEhQGAogASgFEg4KBkN1cnJNUBgLIAEoBRINCgVNYXhN",
-            "UBgMIAEoBRIQCghDdXJyRnVyeRgNIAEoBRIRCglDdXJyTW9uZXkYDiABKAMS",
-            "EAoIQ3VyckdvbGQYDyABKAMimQIKFVdTMkNfR29sZENoYW5nZVJldHVybhIP",
-            "CgdPbGRHb2xkGAEgASgDEhAKCEN1cnJHb2xkGAIgASgDEjEKCkNoYW5nZVR5",
-            "cGUYAyABKA4yHS5ISEZyYW1ld29yay5Qcm90by5DaGFuZ2VUeXBlEjAKB0Fk",
-            "ZFR5cGUYBCABKA4yHy5ISEZyYW1ld29yay5Qcm90by5Nb25leUFkZFR5cGUS",
-            "NgoKUmVkdWNlVHlwZRgFIAEoDjIiLkhIRnJhbWV3b3JrLlByb3RvLk1vbmV5",
-            "UmVkdWNlVHlwZRIvCglHb29kc1R5cGUYBiABKA4yHC5ISEZyYW1ld29yay5Q",
-            "cm90by5Hb29kc1R5cGUSDwoHR29vZHNJZBgHIAEoAyKcAgoWV1MyQ19Nb25l",
-            "eUNoYW5nZVJldHVybhIQCghPbGRNb25leRgBIAEoAxIRCglDdXJyTW9uZXkY",
-            "AiABKAMSMQoKQ2hhbmdlVHlwZRgDIAEoDjIdLkhIRnJhbWV3b3JrLlByb3Rv",
-            "LkNoYW5nZVR5cGUSMAoHQWRkVHlwZRgEIAEoDjIfLkhIRnJhbWV3b3JrLlBy",
-            "b3RvLk1vbmV5QWRkVHlwZRI2CgpSZWR1Y2VUeXBlGAUgASgOMiIuSEhGcmFt",
-            "ZXdvcmsuUHJvdG8uTW9uZXlSZWR1Y2VUeXBlEi8KCUdvb2RzVHlwZRgGIAEo",
-            "DjIcLkhIRnJhbWV3b3JrLlByb3RvLkdvb2RzVHlwZRIPCgdHb29kc0lkGAcg",
-            "ASgDIh4KHFdTMkNfUmV0dXJuRW50ZXJHYW1lQ29tcGxldGUiTAoSV1MyQ19S",
-            "ZXR1cm5DaGF0TXNnEjYKC0NoYXRNc2dMaXN0GAEgAygLMiEuSEhGcmFtZXdv",
-            "cmsuUHJvdG8uQzJXU19DaGF0X0RhdGEiRgoQV1MyQ19QdXNoQ2hhdE1zZxIy",
-            "CgdDaGF0TXNnGAEgASgLMiEuSEhGcmFtZXdvcmsuUHJvdG8uQzJXU19DaGF0",
-            "X0RhdGEiPAoZV1MyQ19SZXR1cm5TaG9wQnV5UHJvZHVjdBIOCgZSZXN1bHQY",
-            "ASABKAgSDwoHTXNnQ29kZRgCIAEoBSKOAgoeV1MyQ19SZXR1cm5CYWNrcGFj",
-            "a0dvb2RzQ2hhbmdlEm4KD0dvb2RzQ2hhbmdlTGlzdBgBIAMoCzJVLkhIRnJh",
-            "bWV3b3JrLlByb3RvLldTMkNfUmV0dXJuQmFja3BhY2tHb29kc0NoYW5nZS5X",
-            "UzJDX1JldHVybkJhY2twYWNrR29vZHNDaGFuZ2VfSXRlbRp8CiNXUzJDX1Jl",
-            "dHVybkJhY2twYWNrR29vZHNDaGFuZ2VfSXRlbRIvCglHb29kc1R5cGUYASAB",
-            "KA4yHC5ISEZyYW1ld29yay5Qcm90by5Hb29kc1R5cGUSDwoHR29vZHNJZBgC",
-            "IAEoAxITCgtDaGFuZ2VDb3VudBgDIAEoBWIGcHJvdG8z"));
+            "UBgMIAEoBRIQCghDdXJyRnVyeRgNIAEoBRIQCghDdXJyR29sZBgPIAEoAyKZ",
+            "AgoVV1MyQ19Hb2xkQ2hhbmdlUmV0dXJuEg8KB09sZEdvbGQYASABKAMSEAoI",
+            "Q3VyckdvbGQYAiABKAMSMQoKQ2hhbmdlVHlwZRgDIAEoDjIdLkhIRnJhbWV3",
+            "b3JrLlByb3RvLkNoYW5nZVR5cGUSMAoHQWRkVHlwZRgEIAEoDjIfLkhIRnJh",
+            "bWV3b3JrLlByb3RvLk1vbmV5QWRkVHlwZRI2CgpSZWR1Y2VUeXBlGAUgASgO",
+            "MiIuSEhGcmFtZXdvcmsuUHJvdG8uTW9uZXlSZWR1Y2VUeXBlEi8KCUdvb2Rz",
+            "VHlwZRgGIAEoDjIcLkhIRnJhbWV3b3JrLlByb3RvLkdvb2RzVHlwZRIPCgdH",
+            "b29kc0lkGAcgASgDIpwCChZXUzJDX01vbmV5Q2hhbmdlUmV0dXJuEhAKCE9s",
+            "ZE1vbmV5GAEgASgDEhEKCUN1cnJNb25leRgCIAEoAxIxCgpDaGFuZ2VUeXBl",
+            "GAMgASgOMh0uSEhGcmFtZXdvcmsuUHJvdG8uQ2hhbmdlVHlwZRIwCgdBZGRU",
+            "eXBlGAQgASgOMh8uSEhGcmFtZXdvcmsuUHJvdG8uTW9uZXlBZGRUeXBlEjYK",
+            "ClJlZHVjZVR5cGUYBSABKA4yIi5ISEZyYW1ld29yay5Qcm90by5Nb25leVJl",
+            "ZHVjZVR5cGUSLwoJR29vZHNUeXBlGAYgASgOMhwuSEhGcmFtZXdvcmsuUHJv",
+            "dG8uR29vZHNUeXBlEg8KB0dvb2RzSWQYByABKAMiHgocV1MyQ19SZXR1cm5F",
+            "bnRlckdhbWVDb21wbGV0ZSJMChJXUzJDX1JldHVybkNoYXRNc2cSNgoLQ2hh",
+            "dE1zZ0xpc3QYASADKAsyIS5ISEZyYW1ld29yay5Qcm90by5DMldTX0NoYXRf",
+            "RGF0YSJGChBXUzJDX1B1c2hDaGF0TXNnEjIKB0NoYXRNc2cYASABKAsyIS5I",
+            "SEZyYW1ld29yay5Qcm90by5DMldTX0NoYXRfRGF0YSI8ChlXUzJDX1JldHVy",
+            "blNob3BCdXlQcm9kdWN0Eg4KBlJlc3VsdBgBIAEoCBIPCgdNc2dDb2RlGAIg",
+            "ASgFIo4CCh5XUzJDX1JldHVybkJhY2twYWNrR29vZHNDaGFuZ2USbgoPR29v",
+            "ZHNDaGFuZ2VMaXN0GAEgAygLMlUuSEhGcmFtZXdvcmsuUHJvdG8uV1MyQ19S",
+            "ZXR1cm5CYWNrcGFja0dvb2RzQ2hhbmdlLldTMkNfUmV0dXJuQmFja3BhY2tH",
+            "b29kc0NoYW5nZV9JdGVtGnwKI1dTMkNfUmV0dXJuQmFja3BhY2tHb29kc0No",
+            "YW5nZV9JdGVtEi8KCUdvb2RzVHlwZRgBIAEoDjIcLkhIRnJhbWV3b3JrLlBy",
+            "b3RvLkdvb2RzVHlwZRIPCgdHb29kc0lkGAIgASgDEhMKC0NoYW5nZUNvdW50",
+            "GAMgASgFYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HHFramework.Proto.ProtoCommonReflection.Descriptor, global::HHFramework.Proto.ProtoC2WSReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnCreateRole), global::HHFramework.Proto.WS2C_ReturnCreateRole.Parser, new[]{ "Result", "RoleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleList), global::HHFramework.Proto.WS2C_ReturnRoleList.Parser, new[]{ "RoleList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleList.Types.WS2C_ReturnRoleList_Item), global::HHFramework.Proto.WS2C_ReturnRoleList.Types.WS2C_ReturnRoleList_Item.Parser, new[]{ "RoleId", "JobId", "Sex", "NickName", "Level" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleInfo), global::HHFramework.Proto.WS2C_ReturnRoleInfo.Parser, new[]{ "RoleId", "JobId", "Sex", "NickName", "Level", "CurrSceneId", "CurrPos", "RotationY", "CurrHP", "MaxHP", "CurrMP", "MaxMP", "CurrFury", "CurrMoney", "CurrGold" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRoleInfo), global::HHFramework.Proto.WS2C_ReturnRoleInfo.Parser, new[]{ "RoleId", "JobId", "Sex", "NickName", "Level", "CurrSceneId", "CurrPos", "RotationY", "CurrHP", "MaxHP", "CurrMP", "MaxMP", "CurrFury", "CurrGold" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_GoldChangeReturn), global::HHFramework.Proto.WS2C_GoldChangeReturn.Parser, new[]{ "OldGold", "CurrGold", "ChangeType", "AddType", "ReduceType", "GoodsType", "GoodsId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_MoneyChangeReturn), global::HHFramework.Proto.WS2C_MoneyChangeReturn.Parser, new[]{ "OldMoney", "CurrMoney", "ChangeType", "AddType", "ReduceType", "GoodsType", "GoodsId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnEnterGameComplete), global::HHFramework.Proto.WS2C_ReturnEnterGameComplete.Parser, null, null, null, null),
@@ -666,7 +666,6 @@ namespace HHFramework.Proto {
       currMP_ = other.currMP_;
       maxMP_ = other.maxMP_;
       currFury_ = other.currFury_;
-      currMoney_ = other.currMoney_;
       currGold_ = other.currGold_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -858,20 +857,6 @@ namespace HHFramework.Proto {
       }
     }
 
-    /// <summary>Field number for the "CurrMoney" field.</summary>
-    public const int CurrMoneyFieldNumber = 14;
-    private long currMoney_;
-    /// <summary>
-    ///当前元宝
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long CurrMoney {
-      get { return currMoney_; }
-      set {
-        currMoney_ = value;
-      }
-    }
-
     /// <summary>Field number for the "CurrGold" field.</summary>
     public const int CurrGoldFieldNumber = 15;
     private long currGold_;
@@ -910,7 +895,6 @@ namespace HHFramework.Proto {
       if (CurrMP != other.CurrMP) return false;
       if (MaxMP != other.MaxMP) return false;
       if (CurrFury != other.CurrFury) return false;
-      if (CurrMoney != other.CurrMoney) return false;
       if (CurrGold != other.CurrGold) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -930,7 +914,6 @@ namespace HHFramework.Proto {
       if (CurrMP != 0) hash ^= CurrMP.GetHashCode();
       if (MaxMP != 0) hash ^= MaxMP.GetHashCode();
       if (CurrFury != 0) hash ^= CurrFury.GetHashCode();
-      if (CurrMoney != 0L) hash ^= CurrMoney.GetHashCode();
       if (CurrGold != 0L) hash ^= CurrGold.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -995,10 +978,6 @@ namespace HHFramework.Proto {
         output.WriteRawTag(104);
         output.WriteInt32(CurrFury);
       }
-      if (CurrMoney != 0L) {
-        output.WriteRawTag(112);
-        output.WriteInt64(CurrMoney);
-      }
       if (CurrGold != 0L) {
         output.WriteRawTag(120);
         output.WriteInt64(CurrGold);
@@ -1048,9 +1027,6 @@ namespace HHFramework.Proto {
       }
       if (CurrFury != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(CurrFury);
-      }
-      if (CurrMoney != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(CurrMoney);
       }
       if (CurrGold != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(CurrGold);
@@ -1106,9 +1082,6 @@ namespace HHFramework.Proto {
       }
       if (other.CurrFury != 0) {
         CurrFury = other.CurrFury;
-      }
-      if (other.CurrMoney != 0L) {
-        CurrMoney = other.CurrMoney;
       }
       if (other.CurrGold != 0L) {
         CurrGold = other.CurrGold;
@@ -1176,10 +1149,6 @@ namespace HHFramework.Proto {
           }
           case 104: {
             CurrFury = input.ReadInt32();
-            break;
-          }
-          case 112: {
-            CurrMoney = input.ReadInt64();
             break;
           }
           case 120: {

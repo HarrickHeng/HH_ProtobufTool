@@ -1,5 +1,5 @@
 
-þ
+à
 Proto_WS2C.protoHHFramework.ProtoProto_Common.protoProto_C2WS.proto"G
 WS2C_ReturnCreateRole
 Result (RResult
@@ -11,7 +11,7 @@
 JobId (RJobId
 Sex (RSex
 NickName (	RNickName
-Level (RLevel"¯
+Level (RLevel"‘
 WS2C_ReturnRoleInfo
 RoleId (RRoleId
 JobId (RJobId
@@ -26,8 +26,7 @@
  (RMaxHP
 CurrMP (RCurrMP
 MaxMP (RMaxMP
-CurrFury (RCurrFury
-	CurrMoney (R	CurrMoney
+CurrFury (RCurrFury
 CurrGold (RCurrGold"á
 WS2C_GoldChangeReturn
 OldGold (ROldGold

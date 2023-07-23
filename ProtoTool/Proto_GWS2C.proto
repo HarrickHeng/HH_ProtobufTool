@@ -22,3 +22,15 @@ message GWS2C_ReturnOffline
 {
 	OfflineType Type = 1;//下线类型
 }
+
+//服务器返回配置列表[c#]
+message GWS2C_ReturnGameServerConfig
+{
+	message GWS2C_ReturnGameServerConfig_Item
+	{
+		string ConfigCode = 1;//配置编码
+		bool IsOpen = 2;//是否开启
+		string Param = 3;//参数
+	}
+	repeated GWS2C_ReturnGameServerConfig_Item GameServerConfigList = 1;//配置列表
+}
