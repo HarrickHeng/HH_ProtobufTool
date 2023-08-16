@@ -27,19 +27,21 @@ namespace HHFramework.Proto {
             "ChBQcm90b19DMldTLnByb3RvEhFISEZyYW1ld29yay5Qcm90bxoSUHJvdG9f",
             "Q29tbW9uLnByb3RvIj8KD0MyV1NfQ3JlYXRlUm9sZRINCgVKb2JJZBgBIAEo",
             "BRILCgNTZXgYAiABKAUSEAoITmlja05hbWUYAyABKAkiEgoQQzJXU19HZXRS",
-            "b2xlTGlzdCIgCg5DMldTX0VudGVyR2FtZRIOCgZSb2xlSWQYASABKAMioAEK",
-            "DkMyV1NfQ2hhdF9EYXRhEi8KB0NoYW5uZWwYASABKA4yHi5ISEZyYW1ld29y",
-            "ay5Qcm90by5DaGF0Q2hhbm5lbBIOCgZSb2xlSWQYAiABKAMSDQoFTGV2ZWwY",
-            "AyABKAUSEAoITmlja05hbWUYBCABKAkSDQoFSm9iSWQYBSABKAUSDAoESGVh",
-            "ZBgGIAEoCRIPCgdDb250ZW50GAcgASgJIkYKEEMyV1NfU2VuZENoYXRNc2cS",
-            "MgoHQ2hhdE1zZxgBIAEoCzIhLkhIRnJhbWV3b3JrLlByb3RvLkMyV1NfQ2hh",
-            "dF9EYXRhIigKE0MyV1NfU2hvcEJ1eVByb2R1Y3QSEQoJUHJvZHVjdElkGAEg",
-            "ASgFYgZwcm90bzM="));
+            "b2xlTGlzdCIhCg9DMldTX0RlbGV0ZVJvbGUSDgoGUm9sZUlkGAEgASgDIiAK",
+            "DkMyV1NfRW50ZXJHYW1lEg4KBlJvbGVJZBgBIAEoAyKgAQoOQzJXU19DaGF0",
+            "X0RhdGESLwoHQ2hhbm5lbBgBIAEoDjIeLkhIRnJhbWV3b3JrLlByb3RvLkNo",
+            "YXRDaGFubmVsEg4KBlJvbGVJZBgCIAEoAxINCgVMZXZlbBgDIAEoBRIQCghO",
+            "aWNrTmFtZRgEIAEoCRINCgVKb2JJZBgFIAEoBRIMCgRIZWFkGAYgASgJEg8K",
+            "B0NvbnRlbnQYByABKAkiRgoQQzJXU19TZW5kQ2hhdE1zZxIyCgdDaGF0TXNn",
+            "GAEgASgLMiEuSEhGcmFtZXdvcmsuUHJvdG8uQzJXU19DaGF0X0RhdGEiKAoT",
+            "QzJXU19TaG9wQnV5UHJvZHVjdBIRCglQcm9kdWN0SWQYASABKAViBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HHFramework.Proto.ProtoCommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_CreateRole), global::HHFramework.Proto.C2WS_CreateRole.Parser, new[]{ "JobId", "Sex", "NickName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_GetRoleList), global::HHFramework.Proto.C2WS_GetRoleList.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_DeleteRole), global::HHFramework.Proto.C2WS_DeleteRole.Parser, new[]{ "RoleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_EnterGame), global::HHFramework.Proto.C2WS_EnterGame.Parser, new[]{ "RoleId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_Chat_Data), global::HHFramework.Proto.C2WS_Chat_Data.Parser, new[]{ "Channel", "RoleId", "Level", "NickName", "JobId", "Head", "Content" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.C2WS_SendChatMsg), global::HHFramework.Proto.C2WS_SendChatMsg.Parser, new[]{ "ChatMsg" }, null, null, null),
@@ -342,6 +344,136 @@ namespace HHFramework.Proto {
   }
 
   /// <summary>
+  ///玩家向服务器发送删除角色消息
+  /// </summary>
+  public sealed partial class C2WS_DeleteRole : HHFramework.IProto, pb::IMessage<C2WS_DeleteRole> {
+    private static readonly pb::MessageParser<C2WS_DeleteRole> _parser = new pb::MessageParser<C2WS_DeleteRole>(() => new C2WS_DeleteRole());
+    public ushort ProtoId => ProtoIdDefine.Proto_C2WS_DeleteRole;
+    public string ProtoEnName => "C2WS_DeleteRole";
+    public ProtoCategory Category => ProtoCategory.Client2WorldServer;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<C2WS_DeleteRole> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public C2WS_DeleteRole() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public C2WS_DeleteRole(C2WS_DeleteRole other) : this() {
+      roleId_ = other.roleId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public C2WS_DeleteRole Clone() {
+      return new C2WS_DeleteRole(this);
+    }
+
+    /// <summary>Field number for the "RoleId" field.</summary>
+    public const int RoleIdFieldNumber = 1;
+    private long roleId_;
+    /// <summary>
+    ///角色编号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long RoleId {
+      get { return roleId_; }
+      set {
+        roleId_ = value;
+      }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as C2WS_DeleteRole);
+    }
+
+    public bool Equals(C2WS_DeleteRole other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RoleId != other.RoleId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RoleId != 0L) hash ^= RoleId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (RoleId != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(RoleId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (RoleId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(RoleId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(C2WS_DeleteRole other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RoleId != 0L) {
+        RoleId = other.RoleId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            RoleId = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
   ///玩家向服务器发送进入游戏消息
   /// </summary>
   public sealed partial class C2WS_EnterGame : HHFramework.IProto, pb::IMessage<C2WS_EnterGame> {
@@ -355,7 +487,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[2]; }
+      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -485,7 +617,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[3]; }
+      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -801,7 +933,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[4]; }
+      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -937,7 +1069,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[5]; }
+      get { return global::HHFramework.Proto.ProtoC2WSReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

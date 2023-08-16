@@ -1,7 +1,10 @@
 
-‡
+©
 Proto_WS2C.protoHHFramework.ProtoProto_Common.protoProto_C2WS.proto"G
 WS2C_ReturnCreateRole
+Result (RResult
+RoleId (RRoleId"G
+WS2C_ReturnDeleteRole
 Result (RResult
 RoleId (RRoleId"Å
 WS2C_ReturnRoleList[

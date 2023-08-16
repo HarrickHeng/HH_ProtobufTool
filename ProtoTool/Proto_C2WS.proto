@@ -17,6 +17,12 @@ message C2WS_GetRoleList
 
 }
 
+//玩家向服务器发送删除角色消息
+message C2WS_DeleteRole
+{
+	int64 RoleId = 1;//角色编号
+}
+
 //玩家向服务器发送进入游戏消息
 message C2WS_EnterGame
 {

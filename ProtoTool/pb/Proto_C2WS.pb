@@ -1,11 +1,13 @@
 
-·
+â
 Proto_C2WS.protoHHFramework.ProtoProto_Common.proto"U
 C2WS_CreateRole
 JobId (RJobId
 Sex (RSex
 NickName (	RNickName"
-C2WS_GetRoleList"(
+C2WS_GetRoleList")
+C2WS_DeleteRole
+RoleId (RRoleId"(
 C2WS_EnterGame
 RoleId (RRoleId"Ø
 C2WS_Chat_Data8

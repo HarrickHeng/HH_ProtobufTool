@@ -11,6 +11,13 @@ message WS2C_ReturnCreateRole
     int64 RoleId = 2;//角色编号
 }
 
+//服务器返回删除角色消息[c#]
+message WS2C_ReturnDeleteRole
+{
+    bool Result = 1;//结果
+    int64 RoleId = 2;//角色编号
+}
+
 //服务器返回已有角色消息[lua]
 message WS2C_ReturnRoleList
 {
