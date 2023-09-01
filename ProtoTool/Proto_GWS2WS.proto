@@ -18,3 +18,12 @@ message GWS2WS_Offline
 {
 	int64 AccountId = 1;//玩家账号
 }
+
+//网关服务器发送充值消息
+message GWS2WS_Recharge
+{
+	int32 ChannelId = 1;//渠道号
+	int64 AccountId = 2;//玩家账号
+	int64 RoleId = 3;//角色编号
+	int32 ProductId = 4;//商品编号
+}

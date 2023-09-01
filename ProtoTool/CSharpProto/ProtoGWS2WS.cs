@@ -27,13 +27,16 @@ namespace HHFramework.Proto {
             "ChJQcm90b19HV1MyV1MucHJvdG8SEUhIRnJhbWV3b3JrLlByb3RvIisKF0dX",
             "UzJXU19SZWdHYXRld2F5U2VydmVyEhAKCFNlcnZlcklkGAEgASgFIh0KG0dX",
             "UzJXU19SZWdHYW1lU2VydmVyU3VjY2VzcyIjCg5HV1MyV1NfT2ZmbGluZRIR",
-            "CglBY2NvdW50SWQYASABKANiBnByb3RvMw=="));
+            "CglBY2NvdW50SWQYASABKAMiWgoPR1dTMldTX1JlY2hhcmdlEhEKCUNoYW5u",
+            "ZWxJZBgBIAEoBRIRCglBY2NvdW50SWQYAiABKAMSDgoGUm9sZUlkGAMgASgD",
+            "EhEKCVByb2R1Y3RJZBgEIAEoBWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GWS2WS_RegGatewayServer), global::HHFramework.Proto.GWS2WS_RegGatewayServer.Parser, new[]{ "ServerId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GWS2WS_RegGameServerSuccess), global::HHFramework.Proto.GWS2WS_RegGameServerSuccess.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GWS2WS_Offline), global::HHFramework.Proto.GWS2WS_Offline.Parser, new[]{ "AccountId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GWS2WS_Offline), global::HHFramework.Proto.GWS2WS_Offline.Parser, new[]{ "AccountId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GWS2WS_Recharge), global::HHFramework.Proto.GWS2WS_Recharge.Parser, new[]{ "ChannelId", "AccountId", "RoleId", "ProductId" }, null, null, null)
           }));
     }
     #endregion
@@ -391,6 +394,229 @@ namespace HHFramework.Proto {
             break;
           case 8: {
             AccountId = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///网关服务器发送充值消息
+  /// </summary>
+  public sealed partial class GWS2WS_Recharge : HHFramework.IProto, pb::IMessage<GWS2WS_Recharge> {
+    private static readonly pb::MessageParser<GWS2WS_Recharge> _parser = new pb::MessageParser<GWS2WS_Recharge>(() => new GWS2WS_Recharge());
+    public ushort ProtoId => ProtoIdDefine.Proto_GWS2WS_Recharge;
+    public string ProtoEnName => "GWS2WS_Recharge";
+    public ProtoCategory Category => ProtoCategory.GatewayServer2WorldServer;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GWS2WS_Recharge> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoGWS2WSReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GWS2WS_Recharge() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GWS2WS_Recharge(GWS2WS_Recharge other) : this() {
+      channelId_ = other.channelId_;
+      accountId_ = other.accountId_;
+      roleId_ = other.roleId_;
+      productId_ = other.productId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GWS2WS_Recharge Clone() {
+      return new GWS2WS_Recharge(this);
+    }
+
+    /// <summary>Field number for the "ChannelId" field.</summary>
+    public const int ChannelIdFieldNumber = 1;
+    private int channelId_;
+    /// <summary>
+    ///渠道号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ChannelId {
+      get { return channelId_; }
+      set {
+        channelId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "AccountId" field.</summary>
+    public const int AccountIdFieldNumber = 2;
+    private long accountId_;
+    /// <summary>
+    ///玩家账号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long AccountId {
+      get { return accountId_; }
+      set {
+        accountId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "RoleId" field.</summary>
+    public const int RoleIdFieldNumber = 3;
+    private long roleId_;
+    /// <summary>
+    ///角色编号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long RoleId {
+      get { return roleId_; }
+      set {
+        roleId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ProductId" field.</summary>
+    public const int ProductIdFieldNumber = 4;
+    private int productId_;
+    /// <summary>
+    ///商品编号
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ProductId {
+      get { return productId_; }
+      set {
+        productId_ = value;
+      }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as GWS2WS_Recharge);
+    }
+
+    public bool Equals(GWS2WS_Recharge other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ChannelId != other.ChannelId) return false;
+      if (AccountId != other.AccountId) return false;
+      if (RoleId != other.RoleId) return false;
+      if (ProductId != other.ProductId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ChannelId != 0) hash ^= ChannelId.GetHashCode();
+      if (AccountId != 0L) hash ^= AccountId.GetHashCode();
+      if (RoleId != 0L) hash ^= RoleId.GetHashCode();
+      if (ProductId != 0) hash ^= ProductId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ChannelId != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(ChannelId);
+      }
+      if (AccountId != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(AccountId);
+      }
+      if (RoleId != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(RoleId);
+      }
+      if (ProductId != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(ProductId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (ChannelId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ChannelId);
+      }
+      if (AccountId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AccountId);
+      }
+      if (RoleId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(RoleId);
+      }
+      if (ProductId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProductId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(GWS2WS_Recharge other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ChannelId != 0) {
+        ChannelId = other.ChannelId;
+      }
+      if (other.AccountId != 0L) {
+        AccountId = other.AccountId;
+      }
+      if (other.RoleId != 0L) {
+        RoleId = other.RoleId;
+      }
+      if (other.ProductId != 0) {
+        ProductId = other.ProductId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ChannelId = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            AccountId = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            RoleId = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            ProductId = input.ReadInt32();
             break;
           }
         }

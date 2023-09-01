@@ -57,13 +57,22 @@ namespace HHFramework.Proto {
             "by5DMldTX0NoYXRfRGF0YSJGChBXUzJDX1B1c2hDaGF0TXNnEjIKB0NoYXRN",
             "c2cYASABKAsyIS5ISEZyYW1ld29yay5Qcm90by5DMldTX0NoYXRfRGF0YSI8",
             "ChlXUzJDX1JldHVyblNob3BCdXlQcm9kdWN0Eg4KBlJlc3VsdBgBIAEoCBIP",
-            "CgdNc2dDb2RlGAIgASgFIo4CCh5XUzJDX1JldHVybkJhY2twYWNrR29vZHND",
-            "aGFuZ2USbgoPR29vZHNDaGFuZ2VMaXN0GAEgAygLMlUuSEhGcmFtZXdvcmsu",
-            "UHJvdG8uV1MyQ19SZXR1cm5CYWNrcGFja0dvb2RzQ2hhbmdlLldTMkNfUmV0",
-            "dXJuQmFja3BhY2tHb29kc0NoYW5nZV9JdGVtGnwKI1dTMkNfUmV0dXJuQmFj",
-            "a3BhY2tHb29kc0NoYW5nZV9JdGVtEi8KCUdvb2RzVHlwZRgBIAEoDjIcLkhI",
-            "RnJhbWV3b3JrLlByb3RvLkdvb2RzVHlwZRIPCgdHb29kc0lkGAIgASgDEhMK",
-            "C0NoYW5nZUNvdW50GAMgASgFYgZwcm90bzM="));
+            "CgdNc2dDb2RlGAIgASgFIo0BChNXUzJDX1JldHVyblJlY2hhcmdlEg4KBlJl",
+            "c3VsdBgBIAEoCBIPCgdNc2dDb2RlGAIgASgFEhEKCVByb2R1Y3RJZBgDIAEo",
+            "BRITCgtQcm9kdWN0VHlwZRgEIAEoBRIRCglSZW1haW5EYXkYBSABKAUSGgoS",
+            "VG90YWxSZWNoYXJnZU1vbmV5GAYgASgDIosCChpXUzJDX1JldHVyblJlY2hh",
+            "cmdlUHJvZHVjdBJqChNSZWNoYXJnZVByb2R1Y3RMaXN0GAEgAygLMk0uSEhG",
+            "cmFtZXdvcmsuUHJvdG8uV1MyQ19SZXR1cm5SZWNoYXJnZVByb2R1Y3QuV1My",
+            "Q19SZXR1cm5SZWNoYXJnZVByb2R1Y3RfSXRlbRqAAQofV1MyQ19SZXR1cm5S",
+            "ZWNoYXJnZVByb2R1Y3RfSXRlbRIRCglQcm9kdWN0SWQYASABKAUSEwoLUHJv",
+            "ZHVjdERlc2MYAiABKAkSDgoGQ2FuQnV5GAMgASgIEhEKCVJlbWFpbkRheRgE",
+            "IAEoBRISCgpEb3VibGVGbGFnGAUgASgIIo4CCh5XUzJDX1JldHVybkJhY2tw",
+            "YWNrR29vZHNDaGFuZ2USbgoPR29vZHNDaGFuZ2VMaXN0GAEgAygLMlUuSEhG",
+            "cmFtZXdvcmsuUHJvdG8uV1MyQ19SZXR1cm5CYWNrcGFja0dvb2RzQ2hhbmdl",
+            "LldTMkNfUmV0dXJuQmFja3BhY2tHb29kc0NoYW5nZV9JdGVtGnwKI1dTMkNf",
+            "UmV0dXJuQmFja3BhY2tHb29kc0NoYW5nZV9JdGVtEi8KCUdvb2RzVHlwZRgB",
+            "IAEoDjIcLkhIRnJhbWV3b3JrLlByb3RvLkdvb2RzVHlwZRIPCgdHb29kc0lk",
+            "GAIgASgDEhMKC0NoYW5nZUNvdW50GAMgASgFYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HHFramework.Proto.ProtoCommonReflection.Descriptor, global::HHFramework.Proto.ProtoC2WSReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -77,6 +86,8 @@ namespace HHFramework.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnChatMsg), global::HHFramework.Proto.WS2C_ReturnChatMsg.Parser, new[]{ "ChatMsgList" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_PushChatMsg), global::HHFramework.Proto.WS2C_PushChatMsg.Parser, new[]{ "ChatMsg" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnShopBuyProduct), global::HHFramework.Proto.WS2C_ReturnShopBuyProduct.Parser, new[]{ "Result", "MsgCode" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRecharge), global::HHFramework.Proto.WS2C_ReturnRecharge.Parser, new[]{ "Result", "MsgCode", "ProductId", "ProductType", "RemainDay", "TotalRechargeMoney" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRechargeProduct), global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Parser, new[]{ "RechargeProductList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Types.WS2C_ReturnRechargeProduct_Item), global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Types.WS2C_ReturnRechargeProduct_Item.Parser, new[]{ "ProductId", "ProductDesc", "CanBuy", "RemainDay", "DoubleFlag" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange), global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Parser, new[]{ "GoodsChangeList" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item), global::HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.Types.WS2C_ReturnBackpackGoodsChange_Item.Parser, new[]{ "GoodsType", "GoodsId", "ChangeCount" }, null, null, null)})
           }));
     }
@@ -2475,6 +2486,670 @@ namespace HHFramework.Proto {
   }
 
   /// <summary>
+  ///服务器返回角色充值信息[lua]
+  /// </summary>
+  public sealed partial class WS2C_ReturnRecharge : HHFramework.IProto, pb::IMessage<WS2C_ReturnRecharge> {
+    private static readonly pb::MessageParser<WS2C_ReturnRecharge> _parser = new pb::MessageParser<WS2C_ReturnRecharge>(() => new WS2C_ReturnRecharge());
+    public ushort ProtoId => ProtoIdDefine.Proto_WS2C_ReturnRecharge;
+    public string ProtoEnName => "WS2C_ReturnRecharge";
+    public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WS2C_ReturnRecharge> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnRecharge() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnRecharge(WS2C_ReturnRecharge other) : this() {
+      result_ = other.result_;
+      msgCode_ = other.msgCode_;
+      productId_ = other.productId_;
+      productType_ = other.productType_;
+      remainDay_ = other.remainDay_;
+      totalRechargeMoney_ = other.totalRechargeMoney_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnRecharge Clone() {
+      return new WS2C_ReturnRecharge(this);
+    }
+
+    /// <summary>Field number for the "Result" field.</summary>
+    public const int ResultFieldNumber = 1;
+    private bool result_;
+    /// <summary>
+    ///结果
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Result {
+      get { return result_; }
+      set {
+        result_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "MsgCode" field.</summary>
+    public const int MsgCodeFieldNumber = 2;
+    private int msgCode_;
+    /// <summary>
+    ///消息码
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int MsgCode {
+      get { return msgCode_; }
+      set {
+        msgCode_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ProductId" field.</summary>
+    public const int ProductIdFieldNumber = 3;
+    private int productId_;
+    /// <summary>
+    ///充值产品Id
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ProductId {
+      get { return productId_; }
+      set {
+        productId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "ProductType" field.</summary>
+    public const int ProductTypeFieldNumber = 4;
+    private int productType_;
+    /// <summary>
+    ///产品类型
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ProductType {
+      get { return productType_; }
+      set {
+        productType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "RemainDay" field.</summary>
+    public const int RemainDayFieldNumber = 5;
+    private int remainDay_;
+    /// <summary>
+    ///剩余天数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int RemainDay {
+      get { return remainDay_; }
+      set {
+        remainDay_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "TotalRechargeMoney" field.</summary>
+    public const int TotalRechargeMoneyFieldNumber = 6;
+    private long totalRechargeMoney_;
+    /// <summary>
+    ///累计充值元宝
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long TotalRechargeMoney {
+      get { return totalRechargeMoney_; }
+      set {
+        totalRechargeMoney_ = value;
+      }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as WS2C_ReturnRecharge);
+    }
+
+    public bool Equals(WS2C_ReturnRecharge other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Result != other.Result) return false;
+      if (MsgCode != other.MsgCode) return false;
+      if (ProductId != other.ProductId) return false;
+      if (ProductType != other.ProductType) return false;
+      if (RemainDay != other.RemainDay) return false;
+      if (TotalRechargeMoney != other.TotalRechargeMoney) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Result != false) hash ^= Result.GetHashCode();
+      if (MsgCode != 0) hash ^= MsgCode.GetHashCode();
+      if (ProductId != 0) hash ^= ProductId.GetHashCode();
+      if (ProductType != 0) hash ^= ProductType.GetHashCode();
+      if (RemainDay != 0) hash ^= RemainDay.GetHashCode();
+      if (TotalRechargeMoney != 0L) hash ^= TotalRechargeMoney.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Result != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(Result);
+      }
+      if (MsgCode != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(MsgCode);
+      }
+      if (ProductId != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(ProductId);
+      }
+      if (ProductType != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(ProductType);
+      }
+      if (RemainDay != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(RemainDay);
+      }
+      if (TotalRechargeMoney != 0L) {
+        output.WriteRawTag(48);
+        output.WriteInt64(TotalRechargeMoney);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      if (Result != false) {
+        size += 1 + 1;
+      }
+      if (MsgCode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MsgCode);
+      }
+      if (ProductId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProductId);
+      }
+      if (ProductType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProductType);
+      }
+      if (RemainDay != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RemainDay);
+      }
+      if (TotalRechargeMoney != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(TotalRechargeMoney);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(WS2C_ReturnRecharge other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Result != false) {
+        Result = other.Result;
+      }
+      if (other.MsgCode != 0) {
+        MsgCode = other.MsgCode;
+      }
+      if (other.ProductId != 0) {
+        ProductId = other.ProductId;
+      }
+      if (other.ProductType != 0) {
+        ProductType = other.ProductType;
+      }
+      if (other.RemainDay != 0) {
+        RemainDay = other.RemainDay;
+      }
+      if (other.TotalRechargeMoney != 0L) {
+        TotalRechargeMoney = other.TotalRechargeMoney;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Result = input.ReadBool();
+            break;
+          }
+          case 16: {
+            MsgCode = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            ProductId = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            ProductType = input.ReadInt32();
+            break;
+          }
+          case 40: {
+            RemainDay = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            TotalRechargeMoney = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  ///服务器返回充值产品信息[c#][lua]
+  /// </summary>
+  public sealed partial class WS2C_ReturnRechargeProduct : HHFramework.IProto, pb::IMessage<WS2C_ReturnRechargeProduct> {
+    private static readonly pb::MessageParser<WS2C_ReturnRechargeProduct> _parser = new pb::MessageParser<WS2C_ReturnRechargeProduct>(() => new WS2C_ReturnRechargeProduct());
+    public ushort ProtoId => ProtoIdDefine.Proto_WS2C_ReturnRechargeProduct;
+    public string ProtoEnName => "WS2C_ReturnRechargeProduct";
+    public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<WS2C_ReturnRechargeProduct> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnRechargeProduct() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnRechargeProduct(WS2C_ReturnRechargeProduct other) : this() {
+      rechargeProductList_ = other.rechargeProductList_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public WS2C_ReturnRechargeProduct Clone() {
+      return new WS2C_ReturnRechargeProduct(this);
+    }
+
+    /// <summary>Field number for the "RechargeProductList" field.</summary>
+    public const int RechargeProductListFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Types.WS2C_ReturnRechargeProduct_Item> _repeated_rechargeProductList_codec
+        = pb::FieldCodec.ForMessage(10, global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Types.WS2C_ReturnRechargeProduct_Item.Parser);
+    private readonly pbc::RepeatedField<global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Types.WS2C_ReturnRechargeProduct_Item> rechargeProductList_ = new pbc::RepeatedField<global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Types.WS2C_ReturnRechargeProduct_Item>();
+    /// <summary>
+    ///充值产品列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Types.WS2C_ReturnRechargeProduct_Item> RechargeProductList {
+      get { return rechargeProductList_; }
+    }
+
+    public override bool Equals(object other) {
+      return Equals(other as WS2C_ReturnRechargeProduct);
+    }
+
+    public bool Equals(WS2C_ReturnRechargeProduct other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!rechargeProductList_.Equals(other.rechargeProductList_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= rechargeProductList_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    public void WriteTo(pb::CodedOutputStream output) {
+      rechargeProductList_.WriteTo(output, _repeated_rechargeProductList_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    public int CalculateSize() {
+      int size = 0;
+      size += rechargeProductList_.CalculateSize(_repeated_rechargeProductList_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    public void MergeFrom(WS2C_ReturnRechargeProduct other) {
+      if (other == null) {
+        return;
+      }
+      rechargeProductList_.Add(other.rechargeProductList_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            rechargeProductList_.AddEntriesFrom(input, _repeated_rechargeProductList_codec);
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the WS2C_ReturnRechargeProduct message type.</summary>
+    public static partial class Types {
+      public sealed partial class WS2C_ReturnRechargeProduct_Item : HHFramework.IProto, pb::IMessage<WS2C_ReturnRechargeProduct_Item> {
+        private static readonly pb::MessageParser<WS2C_ReturnRechargeProduct_Item> _parser = new pb::MessageParser<WS2C_ReturnRechargeProduct_Item>(() => new WS2C_ReturnRechargeProduct_Item());
+        public ushort ProtoId => ProtoIdDefine.Proto_WS2C_ReturnRechargeProduct_Item;
+        public string ProtoEnName => "WS2C_ReturnRechargeProduct_Item";
+        public ProtoCategory Category => ProtoCategory.WorldServer2Client;
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<WS2C_ReturnRechargeProduct_Item> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::HHFramework.Proto.WS2C_ReturnRechargeProduct.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public WS2C_ReturnRechargeProduct_Item() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public WS2C_ReturnRechargeProduct_Item(WS2C_ReturnRechargeProduct_Item other) : this() {
+          productId_ = other.productId_;
+          productDesc_ = other.productDesc_;
+          canBuy_ = other.canBuy_;
+          remainDay_ = other.remainDay_;
+          doubleFlag_ = other.doubleFlag_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public WS2C_ReturnRechargeProduct_Item Clone() {
+          return new WS2C_ReturnRechargeProduct_Item(this);
+        }
+
+        /// <summary>Field number for the "ProductId" field.</summary>
+        public const int ProductIdFieldNumber = 1;
+        private int productId_;
+        /// <summary>
+        ///充值产品Id
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int ProductId {
+          get { return productId_; }
+          set {
+            productId_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "ProductDesc" field.</summary>
+        public const int ProductDescFieldNumber = 2;
+        private string productDesc_ = "";
+        /// <summary>
+        ///描述
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string ProductDesc {
+          get { return productDesc_; }
+          set {
+            productDesc_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "CanBuy" field.</summary>
+        public const int CanBuyFieldNumber = 3;
+        private bool canBuy_;
+        /// <summary>
+        ///是否可以购买
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool CanBuy {
+          get { return canBuy_; }
+          set {
+            canBuy_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "RemainDay" field.</summary>
+        public const int RemainDayFieldNumber = 4;
+        private int remainDay_;
+        /// <summary>
+        ///剩余天数
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int RemainDay {
+          get { return remainDay_; }
+          set {
+            remainDay_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "DoubleFlag" field.</summary>
+        public const int DoubleFlagFieldNumber = 5;
+        private bool doubleFlag_;
+        /// <summary>
+        ///是否双倍
+        /// </summary>
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool DoubleFlag {
+          get { return doubleFlag_; }
+          set {
+            doubleFlag_ = value;
+          }
+        }
+
+        public override bool Equals(object other) {
+          return Equals(other as WS2C_ReturnRechargeProduct_Item);
+        }
+
+        public bool Equals(WS2C_ReturnRechargeProduct_Item other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (ProductId != other.ProductId) return false;
+          if (ProductDesc != other.ProductDesc) return false;
+          if (CanBuy != other.CanBuy) return false;
+          if (RemainDay != other.RemainDay) return false;
+          if (DoubleFlag != other.DoubleFlag) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        public override int GetHashCode() {
+          int hash = 1;
+          if (ProductId != 0) hash ^= ProductId.GetHashCode();
+          if (ProductDesc.Length != 0) hash ^= ProductDesc.GetHashCode();
+          if (CanBuy != false) hash ^= CanBuy.GetHashCode();
+          if (RemainDay != 0) hash ^= RemainDay.GetHashCode();
+          if (DoubleFlag != false) hash ^= DoubleFlag.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (ProductId != 0) {
+            output.WriteRawTag(8);
+            output.WriteInt32(ProductId);
+          }
+          if (ProductDesc.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(ProductDesc);
+          }
+          if (CanBuy != false) {
+            output.WriteRawTag(24);
+            output.WriteBool(CanBuy);
+          }
+          if (RemainDay != 0) {
+            output.WriteRawTag(32);
+            output.WriteInt32(RemainDay);
+          }
+          if (DoubleFlag != false) {
+            output.WriteRawTag(40);
+            output.WriteBool(DoubleFlag);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        public int CalculateSize() {
+          int size = 0;
+          if (ProductId != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProductId);
+          }
+          if (ProductDesc.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(ProductDesc);
+          }
+          if (CanBuy != false) {
+            size += 1 + 1;
+          }
+          if (RemainDay != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeInt32Size(RemainDay);
+          }
+          if (DoubleFlag != false) {
+            size += 1 + 1;
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        public void MergeFrom(WS2C_ReturnRechargeProduct_Item other) {
+          if (other == null) {
+            return;
+          }
+          if (other.ProductId != 0) {
+            ProductId = other.ProductId;
+          }
+          if (other.ProductDesc.Length != 0) {
+            ProductDesc = other.ProductDesc;
+          }
+          if (other.CanBuy != false) {
+            CanBuy = other.CanBuy;
+          }
+          if (other.RemainDay != 0) {
+            RemainDay = other.RemainDay;
+          }
+          if (other.DoubleFlag != false) {
+            DoubleFlag = other.DoubleFlag;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 8: {
+                ProductId = input.ReadInt32();
+                break;
+              }
+              case 18: {
+                ProductDesc = input.ReadString();
+                break;
+              }
+              case 24: {
+                CanBuy = input.ReadBool();
+                break;
+              }
+              case 32: {
+                RemainDay = input.ReadInt32();
+                break;
+              }
+              case 40: {
+                DoubleFlag = input.ReadBool();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
   ///服务器返回背包物品更新消息[lua]
   /// </summary>
   public sealed partial class WS2C_ReturnBackpackGoodsChange : HHFramework.IProto, pb::IMessage<WS2C_ReturnBackpackGoodsChange> {
@@ -2488,7 +3163,7 @@ namespace HHFramework.Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[10]; }
+      get { return global::HHFramework.Proto.ProtoWS2CReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -1,5 +1,5 @@
 
-©
+€
 Proto_WS2C.protoHHFramework.ProtoProto_Common.protoProto_C2WS.proto"G
 WS2C_ReturnCreateRole
 Result (RResult
@@ -62,7 +62,24 @@ ReduceType:
 ChatMsg (2!.HHFramework.Proto.C2WS_Chat_DataRChatMsg"M
 WS2C_ReturnShopBuyProduct
 Result (RResult
-MsgCode (RMsgCode"¡
+MsgCode (RMsgCode"’
+WS2C_ReturnRecharge
+Result (RResult
+MsgCode (RMsgCode
+	ProductId (R	ProductId 
+ProductType (RProductType
+	RemainDay (R	RemainDay.
+TotalRechargeMoney (RTotalRechargeMoney"◊
+WS2C_ReturnRechargeProduct
+RechargeProductList (2M.HHFramework.Proto.WS2C_ReturnRechargeProduct.WS2C_ReturnRechargeProduct_ItemRRechargeProductList∑
+WS2C_ReturnRechargeProduct_Item
+	ProductId (R	ProductId 
+ProductDesc (	RProductDesc
+CanBuy (RCanBuy
+	RemainDay (R	RemainDay
+
+DoubleFlag (R
+DoubleFlag"¡
 WS2C_ReturnBackpackGoodsChange
 GoodsChangeList (2U.HHFramework.Proto.WS2C_ReturnBackpackGoodsChange.WS2C_ReturnBackpackGoodsChange_ItemRGoodsChangeListù
 #WS2C_ReturnBackpackGoodsChange_Item:

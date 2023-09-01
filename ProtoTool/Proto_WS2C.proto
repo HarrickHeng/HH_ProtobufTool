@@ -100,6 +100,31 @@ message WS2C_ReturnShopBuyProduct
 	int32 MsgCode = 2;//消息码
 }
 
+//服务器返回角色充值信息[lua]
+message WS2C_ReturnRecharge
+{
+	bool Result = 1;//结果
+	int32 MsgCode = 2;//消息码
+	int32 ProductId = 3;//充值产品Id
+	int32 ProductType = 4;//产品类型
+	int32 RemainDay = 5;//剩余天数
+	int64 TotalRechargeMoney = 6;//累计充值元宝
+}
+
+//服务器返回充值产品信息[c#][lua]
+message WS2C_ReturnRechargeProduct
+{
+	message WS2C_ReturnRechargeProduct_Item
+	{
+		int32 ProductId = 1;//充值产品Id
+		string ProductDesc = 2;//描述
+		bool CanBuy = 3;//是否可以购买
+		int32 RemainDay = 4;//剩余天数
+		bool DoubleFlag = 5;//是否双倍
+	}
+	repeated WS2C_ReturnRechargeProduct_Item RechargeProductList = 1;//充值产品列表
+}
+
 //服务器返回背包物品更新消息[lua]
 message WS2C_ReturnBackpackGoodsChange
 {
