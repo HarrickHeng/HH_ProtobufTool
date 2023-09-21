@@ -84,7 +84,6 @@ message GS2C_ReturnRoleBattleDataChange
 	int32 HurtValue = 7;//伤害值
 	repeated GS2C_Buff_Data AddBuffs = 8;//添加的buff
 	repeated int32 RemoveBuffs = 9;//移除的buff
-	int64 AttackRoleId = 10;//攻击者
 }
 
 //服务器返回角色buff到期消息[c#]

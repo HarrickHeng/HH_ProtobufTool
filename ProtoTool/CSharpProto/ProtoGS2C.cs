@@ -50,16 +50,15 @@ namespace HHFramework.Proto {
             "KAsyGi5ISEZyYW1ld29yay5Qcm90by5WZWN0b3IzEhAKCFJ1blNwZWVkGAgg",
             "ASgCEjcKCkFjdGlvblR5cGUYCSABKA4yIy5ISEZyYW1ld29yay5Qcm90by5Q",
             "bGF5ZXJBY3Rpb25UeXBlIjQKDkdTMkNfQnVmZl9EYXRhEg4KBkJ1ZmZJZBgB",
-            "IAEoBRISCgpSZW1haW5UaW1lGAIgASgFIvQBCh9HUzJDX1JldHVyblJvbGVC",
+            "IAEoBRISCgpSZW1haW5UaW1lGAIgASgFIt4BCh9HUzJDX1JldHVyblJvbGVC",
             "YXR0bGVEYXRhQ2hhbmdlEg4KBlJvbGVJZBgBIAEoAxINCgVNYXhIcBgCIAEo",
             "BRIOCgZDdXJySHAYAyABKAUSEAoIQ3VyckZ1cnkYBCABKAUSDQoFTWF4TXAY",
             "BSABKAUSDgoGQ3Vyck1wGAYgASgFEhEKCUh1cnRWYWx1ZRgHIAEoBRIzCghB",
             "ZGRCdWZmcxgIIAMoCzIhLkhIRnJhbWV3b3JrLlByb3RvLkdTMkNfQnVmZl9E",
-            "YXRhEhMKC1JlbW92ZUJ1ZmZzGAkgAygFEhQKDEF0dGFja1JvbGVJZBgKIAEo",
-            "AyI8ChpHUzJDX1JldHVyblJvbGVCdWZmRXhwaXJlcxIOCgZSb2xlSWQYASAB",
-            "KAMSDgoGQnVmZklkGAIgASgFIlQKH0dTMkNfUmV0dXJuUm9sZUJ1ZmZDb250",
-            "aW51ZUh1cnQSDgoGUm9sZUlkGAEgASgDEg4KBkJ1ZmZJZBgCIAEoBRIRCglI",
-            "dXJ0VmFsdWUYAyABKAViBnByb3RvMw=="));
+            "YXRhEhMKC1JlbW92ZUJ1ZmZzGAkgAygFIjwKGkdTMkNfUmV0dXJuUm9sZUJ1",
+            "ZmZFeHBpcmVzEg4KBlJvbGVJZBgBIAEoAxIOCgZCdWZmSWQYAiABKAUiVAof",
+            "R1MyQ19SZXR1cm5Sb2xlQnVmZkNvbnRpbnVlSHVydBIOCgZSb2xlSWQYASAB",
+            "KAMSDgoGQnVmZklkGAIgASgFEhEKCUh1cnRWYWx1ZRgDIAEoBWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::HHFramework.Proto.ProtoCommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -70,7 +69,7 @@ namespace HHFramework.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GS2C_ReturnRoleLeaveSceneLine), global::HHFramework.Proto.GS2C_ReturnRoleLeaveSceneLine.Parser, new[]{ "RoleId", "LeaveSceneLineType" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GS2C_ReturnRoleChangeState), global::HHFramework.Proto.GS2C_ReturnRoleChangeState.Parser, new[]{ "RoleId", "Status", "SkillId", "SkillLevel", "CurrPos", "RotationY", "TargetPos", "RunSpeed", "ActionType" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GS2C_Buff_Data), global::HHFramework.Proto.GS2C_Buff_Data.Parser, new[]{ "BuffId", "RemainTime" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GS2C_ReturnRoleBattleDataChange), global::HHFramework.Proto.GS2C_ReturnRoleBattleDataChange.Parser, new[]{ "RoleId", "MaxHp", "CurrHp", "CurrFury", "MaxMp", "CurrMp", "HurtValue", "AddBuffs", "RemoveBuffs", "AttackRoleId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GS2C_ReturnRoleBattleDataChange), global::HHFramework.Proto.GS2C_ReturnRoleBattleDataChange.Parser, new[]{ "RoleId", "MaxHp", "CurrHp", "CurrFury", "MaxMp", "CurrMp", "HurtValue", "AddBuffs", "RemoveBuffs" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GS2C_ReturnRoleBuffExpires), global::HHFramework.Proto.GS2C_ReturnRoleBuffExpires.Parser, new[]{ "RoleId", "BuffId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HHFramework.Proto.GS2C_ReturnRoleBuffContinueHurt), global::HHFramework.Proto.GS2C_ReturnRoleBuffContinueHurt.Parser, new[]{ "RoleId", "BuffId", "HurtValue" }, null, null, null)
           }));
@@ -1880,7 +1879,6 @@ namespace HHFramework.Proto {
       hurtValue_ = other.hurtValue_;
       addBuffs_ = other.addBuffs_.Clone();
       removeBuffs_ = other.removeBuffs_.Clone();
-      attackRoleId_ = other.attackRoleId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2013,20 +2011,6 @@ namespace HHFramework.Proto {
       get { return removeBuffs_; }
     }
 
-    /// <summary>Field number for the "AttackRoleId" field.</summary>
-    public const int AttackRoleIdFieldNumber = 10;
-    private long attackRoleId_;
-    /// <summary>
-    ///攻击者
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long AttackRoleId {
-      get { return attackRoleId_; }
-      set {
-        attackRoleId_ = value;
-      }
-    }
-
     public override bool Equals(object other) {
       return Equals(other as GS2C_ReturnRoleBattleDataChange);
     }
@@ -2047,7 +2031,6 @@ namespace HHFramework.Proto {
       if (HurtValue != other.HurtValue) return false;
       if(!addBuffs_.Equals(other.addBuffs_)) return false;
       if(!removeBuffs_.Equals(other.removeBuffs_)) return false;
-      if (AttackRoleId != other.AttackRoleId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2062,7 +2045,6 @@ namespace HHFramework.Proto {
       if (HurtValue != 0) hash ^= HurtValue.GetHashCode();
       hash ^= addBuffs_.GetHashCode();
       hash ^= removeBuffs_.GetHashCode();
-      if (AttackRoleId != 0L) hash ^= AttackRoleId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2104,10 +2086,6 @@ namespace HHFramework.Proto {
       }
       addBuffs_.WriteTo(output, _repeated_addBuffs_codec);
       removeBuffs_.WriteTo(output, _repeated_removeBuffs_codec);
-      if (AttackRoleId != 0L) {
-        output.WriteRawTag(80);
-        output.WriteInt64(AttackRoleId);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2138,9 +2116,6 @@ namespace HHFramework.Proto {
       }
       size += addBuffs_.CalculateSize(_repeated_addBuffs_codec);
       size += removeBuffs_.CalculateSize(_repeated_removeBuffs_codec);
-      if (AttackRoleId != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(AttackRoleId);
-      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2174,9 +2149,6 @@ namespace HHFramework.Proto {
       }
       addBuffs_.Add(other.addBuffs_);
       removeBuffs_.Add(other.removeBuffs_);
-      if (other.AttackRoleId != 0L) {
-        AttackRoleId = other.AttackRoleId;
-      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2222,10 +2194,6 @@ namespace HHFramework.Proto {
           case 74:
           case 72: {
             removeBuffs_.AddEntriesFrom(input, _repeated_removeBuffs_codec);
-            break;
-          }
-          case 80: {
-            AttackRoleId = input.ReadInt64();
             break;
           }
         }

@@ -1,5 +1,5 @@
 
-ê
+Ï
 Proto_GS2C.protoHHFramework.ProtoProto_Common.proto"£
 GS2C_ReturnEnterScene_Apply
 SceneId (RSceneId
@@ -50,7 +50,7 @@ ActionType"H
 BuffId (RBuffId
 
 RemainTime (R
-RemainTime"‘
+RemainTime"∞
 GS2C_ReturnRoleBattleDataChange
 RoleId (RRoleId
 MaxHp (RMaxHp
@@ -60,9 +60,7 @@ RemainTime"‘
 CurrMp (RCurrMp
 	HurtValue (R	HurtValue=
 AddBuffs (2!.HHFramework.Proto.GS2C_Buff_DataRAddBuffs 
-RemoveBuffs	 (RRemoveBuffs"
-AttackRoleId
- (RAttackRoleId"L
+RemoveBuffs	 (RRemoveBuffs"L
 GS2C_ReturnRoleBuffExpires
 RoleId (RRoleId
 BuffId (RBuffId"o
